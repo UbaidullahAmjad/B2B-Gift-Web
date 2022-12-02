@@ -10,15 +10,15 @@ As this is the sole business gift-sharing platform that not only shares gifts bu
 # Team Size:
 6
 # Tech Stack:
-Laravel
-MySQL
-Postman
-Selenium
-Jmeter
-Adobe XD  
+- Laravel
+- MySQL
+- Postman
+- Selenium
+- Jmeter
+- Adobe XD  
 # Target Devices:
-Web
-Mobile
-Tablets
-Laptop
-Desktop
+- Web
+- Mobile
+- Tablets
+- Laptop
+- Desktop
