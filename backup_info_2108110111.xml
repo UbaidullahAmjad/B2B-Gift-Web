@@ -1,0 +1,1388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<migration-dump agent-name="Plesk.PHP" dump-version="18.0.36" dump-original-version="18.0.36" content-included="true" dump-format="panel" verification-string="$AES-128-CBC$yEjs1M6ATFrjCJz4dFwP2w==$YjoPdndXB0jkmJfojhsPH5zWRaSP9WChl7lNLizM5OM=" encryption-type="password">
+  <dump-info>
+    <description>All configuration and content</description>
+    <os-description type="unix" apache-uid="48" apache-gid="48"/>
+    <cp-description>
+      <components-installed>
+        <component name="awstats"/>
+        <component name="bind"/>
+        <component name="curl"/>
+        <component name="dovecot"/>
+        <component name="dovecot-pigeonhole"/>
+        <component name="fail2ban"/>
+        <component name="httpd"/>
+        <component name="modsecurity"/>
+        <component name="mysql"/>
+        <component name="nginx"/>
+        <component name="nss"/>
+        <component name="openssl"/>
+        <component name="php73"/>
+        <component name="php74"/>
+        <component name="phpmyadmin"/>
+        <component name="postfix"/>
+        <component name="postgresql-server"/>
+        <component name="PPSitebuilder"/>
+        <component name="psa"/>
+        <component name="psa-api-rpc"/>
+        <component name="psa-autoinstaller"/>
+        <component name="psa-backup-manager"/>
+        <component name="psa-logrotate"/>
+        <component name="psa-mod-fcgid-configurator"/>
+        <component name="psa-proftpd"/>
+        <component name="resource-controller"/>
+        <component name="roundcube"/>
+        <component name="webalizer"/>
+      </components-installed>
+      <services>
+        <service name="dns" available="true"/>
+        <service name="wpb" available="false"/>
+        <service name="resellers-management" available="false"/>
+      </services>
+    </cp-description>
+    <server-id>3308310e-ca07-11eb-90ec-525400a6836d</server-id>
+  </dump-info>
+  <domain id="7" guid="bf19cd49-7f31-4300-8352-a741328dfb42" external-id="" owner-guid="3308310e-ca07-11eb-90ec-525400a6836d" name="b2bgiftplatform.com" www="true" cr-date="2021-06-14" vendor-guid="3308310e-ca07-11eb-90ec-525400a6836d" owner-name="admin" vendor-login="admin">
+    <preferences>
+      <subscription locked="true" synchronized="true" custom="false">
+        <plan quantity="1" plan-guid="330862e3-ca07-11eb-90ec-525400a6836d" is-addon="false"/>
+        <properties>
+          <property>
+            <name>default_server_mysql</name>
+            <value encoding="base64">MQ==</value>
+          </property>
+          <property>
+            <name>default_server_postgresql</name>
+            <value encoding="base64">bm9uZQ==</value>
+          </property>
+          <property>
+            <name>limitsId</name>
+            <value encoding="base64">NA==</value>
+          </property>
+          <property>
+            <name>outgoing_messages_domain_limit</name>
+            <value encoding="base64">ZGVmYXVsdA==</value>
+          </property>
+          <property>
+            <name>outgoing_messages_enable_sendmail</name>
+            <value encoding="base64">ZGVmYXVsdA==</value>
+          </property>
+          <property>
+            <name>outgoing_messages_mbox_limit</name>
+            <value encoding="base64">ZGVmYXVsdA==</value>
+          </property>
+          <property>
+            <name>outgoing_messages_overlimit_percent</name>
+            <value encoding="base64">MA==</value>
+          </property>
+          <property>
+            <name>outgoing_messages_subscription_limit</name>
+            <value encoding="base64">ZGVmYXVsdA==</value>
+          </property>
+          <property>
+            <name>OveruseBlock</name>
+            <value encoding="base64">ZmFsc2U=</value>
+          </property>
+          <property>
+            <name>OveruseNotify</name>
+            <value encoding="base64">ZmFsc2U=</value>
+          </property>
+          <property>
+            <name>OveruseSuspend</name>
+            <value encoding="base64">ZmFsc2U=</value>
+          </property>
+          <property>
+            <name>permissionsId</name>
+            <value encoding="base64">NQ==</value>
+          </property>
+          <property>
+            <name>phpSettingsId</name>
+            <value encoding="base64">MQ==</value>
+          </property>
+          <property>
+            <name>unpaid_website_status</name>
+            <value encoding="base64">c3VzcGVuZGVk</value>
+          </property>
+          <property>
+            <name>urn:ext:sslit:plan-item-sdk:keep-secured</name>
+            <value encoding="base64">dHJ1ZQ==</value>
+          </property>
+        </properties>
+      </subscription>
+      <template-plan-item name="urn:ext:sslit:plan-item-sdk:keep-secured">true</template-plan-item>
+      <aps-bundle/>
+      <default-db-servers>
+        <db-server type="mysql">
+          <host>localhost</host>
+          <port>3306</port>
+        </db-server>
+      </default-db-servers>
+      <descriptions>
+        <description/>
+      </descriptions>
+    </preferences>
+    <properties>
+      <webspace-status>
+        <enabled/>
+      </webspace-status>
+      <status>
+        <enabled/>
+      </status>
+      <dns-zone email="gambixa@gmail.com" type="master" serial-format="YYYYMMDDNN" sync-with-parent="false" external-id="" rnameType="owner" mname="">
+        <status>
+          <enabled/>
+        </status>
+        <dns-zone-param name="ttl" unit="days" value="86400"/>
+        <dns-zone-param name="refresh" unit="hours" value="10800"/>
+        <dns-zone-param name="retry" unit="hours" value="3600"/>
+        <dns-zone-param name="expire" unit="days" value="604800"/>
+        <dns-zone-param name="minimum" unit="hours" value="10800"/>
+        <dnsrec type="CNAME" src="www.b2bgiftplatform.com." dst="b2bgiftplatform.com." opt="" external-id=""/>
+        <dnsrec type="SRV" src="_imaps._tcp.b2bgiftplatform.com." dst="b2bgiftplatform.com." opt="0 0 993" external-id=""/>
+        <dnsrec type="SRV" src="_pop3s._tcp.b2bgiftplatform.com." dst="b2bgiftplatform.com." opt="0 0 995" external-id=""/>
+        <dnsrec type="SRV" src="_smtps._tcp.b2bgiftplatform.com." dst="b2bgiftplatform.com." opt="0 0 465" external-id=""/>
+        <dnsrec type="TXT" src="_domainconnect.b2bgiftplatform.com." dst="domainconnect.plesk.com/host/cloudvpsserver.b2bgiftplatform.com/port/8443" opt="" status="syn" external-id=""/>
+        <dnsrec type="TXT" src="_dmarc.b2bgiftplatform.com." dst="v=DMARC1; p=none" opt="" status="syn" external-id=""/>
+        <dnsrec type="TXT" src="b2bgiftplatform.com." dst="v=spf1 +a +mx +a:cloudvpsserver.b2bgiftplatform.com -all" opt="" status="syn" external-id=""/>
+        <dnsrec type="CNAME" src="ftp.b2bgiftplatform.com." dst="b2bgiftplatform.com." opt="" status="syn" external-id=""/>
+        <dnsrec type="A" src="ipv4.b2bgiftplatform.com." dst="67.227.213.150" opt="" status="syn" external-id=""/>
+        <dnsrec type="A" src="mail.b2bgiftplatform.com." dst="67.227.213.150" opt="" status="syn" external-id=""/>
+        <dnsrec type="MX" src="b2bgiftplatform.com." dst="mail.b2bgiftplatform.com." opt="10" status="syn" external-id=""/>
+        <dnsrec type="A" src="webmail.b2bgiftplatform.com." dst="67.227.213.150" opt="" status="syn" external-id=""/>
+        <dnsrec type="A" src="b2bgiftplatform.com." dst="67.227.213.150" opt="" status="syn" external-id=""/>
+        <dnsrec type="A" src="ns2.b2bgiftplatform.com." dst="67.227.213.150" opt="" status="syn" external-id=""/>
+        <dnsrec type="NS" src="b2bgiftplatform.com." dst="ns2.b2bgiftplatform.com." opt="" status="syn" external-id=""/>
+        <dnsrec type="A" src="ns1.b2bgiftplatform.com." dst="67.227.213.150" opt="" status="syn" external-id=""/>
+        <dnsrec type="NS" src="b2bgiftplatform.com." dst="ns1.b2bgiftplatform.com." opt="" status="syn" external-id=""/>
+      </dns-zone>
+      <dom-param>
+        <param>
+          <name>apacheErrorDocs</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </param>
+        <param>
+          <name>ext-domain-connect-configureLinkClicked</name>
+          <value encoding="base64">MA==</value>
+        </param>
+        <param>
+          <name>ext-domain-connect-configureUrl</name>
+          <value encoding="base64"/>
+        </param>
+        <param>
+          <name>ext-domain-connect-connectable</name>
+          <value encoding="base64">MA==</value>
+        </param>
+        <param>
+          <name>ext-domain-connect-connected</name>
+          <value encoding="base64">MQ==</value>
+        </param>
+        <param>
+          <name>ext-domain-connect-enabled</name>
+          <value encoding="base64">MQ==</value>
+        </param>
+        <param>
+          <name>ext-domain-connect-mailconfigureLinkClicked</name>
+          <value encoding="base64">MA==</value>
+        </param>
+        <param>
+          <name>ext-domain-connect-mailconfigureUrl</name>
+          <value encoding="base64"/>
+        </param>
+        <param>
+          <name>ext-domain-connect-mailconnectable</name>
+          <value encoding="base64">MA==</value>
+        </param>
+        <param>
+          <name>ext-domain-connect-mailconnected</name>
+          <value encoding="base64">MA==</value>
+        </param>
+        <param>
+          <name>ext-domain-connect-mailenabled</name>
+          <value encoding="base64">MQ==</value>
+        </param>
+        <param>
+          <name>ext-letsencrypt-registrationEmail</name>
+          <value encoding="base64">Z2FtYml4YUBnbWFpbC5jb20=</value>
+        </param>
+        <param>
+          <name>ext-xovi-site_audit_stamp</name>
+          <value encoding="base64">MTYyMzc5MDMzMQ==</value>
+        </param>
+        <param>
+          <name>ext-xovi-site_audit_state</name>
+          <value encoding="base64">Y29tcGxldGVk</value>
+        </param>
+        <param>
+          <name>gl_filter</name>
+          <value encoding="base64">b24=</value>
+        </param>
+        <param>
+          <name>ip_addr_id</name>
+          <value encoding="base64">MQ==</value>
+        </param>
+        <param>
+          <name>is_resolved</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </param>
+        <param>
+          <name>lastDatabaseSelectedId</name>
+          <value encoding="base64">Mw==</value>
+        </param>
+        <param>
+          <name>lastVisitTime</name>
+          <value encoding="base64">MjAyMS0wOC0xMVQwMToxMDoxMi0wNDowMA==</value>
+        </param>
+        <param>
+          <name>logrotation_id</name>
+          <value encoding="base64">MTE=</value>
+        </param>
+        <param>
+          <name>phpSettingsId</name>
+          <value encoding="base64">Mg==</value>
+        </param>
+        <param>
+          <name>seoRedirect</name>
+          <value encoding="base64">bm9uZQ==</value>
+        </param>
+        <param>
+          <name>stat_ttl</name>
+          <value encoding="base64">Mw==</value>
+        </param>
+        <param>
+          <name>vhost_id</name>
+          <value encoding="base64">NTY2MzVlZjgtODdmYS00ZmFlLTgyYmItNjNlMjIyYTdiYTM2</value>
+        </param>
+        <param>
+          <name>webmail</name>
+          <value encoding="base64">cm91bmRjdWJl</value>
+        </param>
+        <param>
+          <name>webmail_certificate_id</name>
+          <value encoding="base64">Ng==</value>
+        </param>
+        <param>
+          <name>webServerSettingsId</name>
+          <value encoding="base64">MTI=</value>
+        </param>
+        <param>
+          <name>wu_script</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </param>
+      </dom-param>
+    </properties>
+    <limits-and-permissions>
+      <limit name="overuse">normal</limit>
+      <limit name="disk_space">-1</limit>
+      <limit name="disk_space_soft">-1</limit>
+      <limit name="expiration">-1</limit>
+      <limit name="expiration_soft">-1</limit>
+      <limit name="ext_limit_baqend_domains">-1</limit>
+      <limit name="ext_limit_wp_toolkit_smart_update_instances">-1</limit>
+      <limit name="ext_limit_wp_toolkit_wp_backups">-1</limit>
+      <limit name="ext_limit_wp_toolkit_wp_instances">-1</limit>
+      <limit name="ext_limit_xovi_max_keywords">-1</limit>
+      <limit name="max_box">-1</limit>
+      <limit name="max_db">-1</limit>
+      <limit name="max_dom_aliases">-1</limit>
+      <limit name="max_maillists">-1</limit>
+      <limit name="max_mn">-1</limit>
+      <limit name="max_site">-1</limit>
+      <limit name="max_subdom">-1</limit>
+      <limit name="max_subftp_users">-1</limit>
+      <limit name="max_traffic">-1</limit>
+      <limit name="max_traffic_soft">-1</limit>
+      <limit name="max_wu">-1</limit>
+      <limit name="mbox_quota">-1</limit>
+      <permission name="access_appcatalog" value="true"/>
+      <permission name="access_service_users" value="true"/>
+      <permission name="allow_account_ftp_backups" value="true"/>
+      <permission name="allow_account_local_backups" value="true"/>
+      <permission name="allow_ftp_backups" value="true"/>
+      <permission name="allow_insecure_sites" value="true"/>
+      <permission name="allow_local_backups" value="true"/>
+      <permission name="create_domains" value="true"/>
+      <permission name="ext_permission_git_manage_git" value="true"/>
+      <permission name="ext_permission_wp_toolkit_manage_autoupdates" value="true"/>
+      <permission name="ext_permission_wp_toolkit_manage_cloning" value="true"/>
+      <permission name="ext_permission_wp_toolkit_manage_security_wordpress_toolkit" value="true"/>
+      <permission name="ext_permission_wp_toolkit_manage_syncing" value="true"/>
+      <permission name="ext_permission_wp_toolkit_manage_wordpress_toolkit" value="true"/>
+      <permission name="manage_anonftp" value="true"/>
+      <permission name="manage_crontab" value="true"/>
+      <permission name="manage_dns" value="true"/>
+      <permission name="manage_domain_aliases" value="true"/>
+      <permission name="manage_log" value="true"/>
+      <permission name="manage_maillists" value="true"/>
+      <permission name="manage_mail_autodiscover" value="true"/>
+      <permission name="manage_mail_settings" value="true"/>
+      <permission name="manage_not_chroot_shell" value="true"/>
+      <permission name="manage_performance" value="true"/>
+      <permission name="manage_phosting" value="true"/>
+      <permission name="manage_phosting_cgi" value="true"/>
+      <permission name="manage_phosting_errdocs" value="true"/>
+      <permission name="manage_phosting_fastcgi" value="true"/>
+      <permission name="manage_phosting_perl" value="true"/>
+      <permission name="manage_phosting_php" value="true"/>
+      <permission name="manage_phosting_python" value="true"/>
+      <permission name="manage_phosting_ssi" value="true"/>
+      <permission name="manage_phosting_ssl" value="true"/>
+      <permission name="manage_phosting_webdeploy" value="true"/>
+      <permission name="manage_php_settings" value="true"/>
+      <permission name="manage_php_version" value="true"/>
+      <permission name="manage_protected_dirs" value="true"/>
+      <permission name="manage_quota" value="true"/>
+      <permission name="manage_sh_access" value="true"/>
+      <permission name="manage_spamfilter" value="true"/>
+      <permission name="manage_subdomains" value="true"/>
+      <permission name="manage_subftp" value="true"/>
+      <permission name="manage_virusfilter" value="true"/>
+      <permission name="manage_website_maintenance" value="true"/>
+      <permission name="manage_webstat" value="true"/>
+      <permission name="remote_db_connection" value="true"/>
+      <permission name="select_db_server" value="true"/>
+    </limits-and-permissions>
+    <mailsystem>
+      <content>
+        <cid type="domainmail" path="" indexed="true">
+          <content-file size="45">backup_domainmail_2108110111.tgz</content-file>
+        </cid>
+      </content>
+      <properties>
+        <status>
+          <enabled/>
+        </status>
+        <ip>
+          <ip-type>shared</ip-type>
+          <ip-address>67.227.213.150</ip-address>
+        </ip>
+      </properties>
+      <preferences>
+        <catch-all>reject</catch-all>
+        <domain-keys state="false"/>
+        <web-mail certificate="2d11afd6cdfddfc79821f853ac1080f5">roundcube</web-mail>
+        <grey-listing>on</grey-listing>
+        <outgoing-messages>
+          <parameter>
+            <name>outgoing_messages_limit</name>
+            <value>default</value>
+          </parameter>
+        </outgoing-messages>
+        <mail-autodiscover>true</mail-autodiscover>
+      </preferences>
+    </mailsystem>
+    <databases>
+      <database name="admin_gift" type="mysql" owner-guid="bf19cd49-7f31-4300-8352-a741328dfb42" version="10.5.12" charset="utf8" id="2" collation="utf8_general_ci">
+        <content>
+          <cid type="sqldump" path="databases/admin_gift_1">
+            <content-file size="140617">backup_sqldump_2108110111.tgz</content-file>
+          </cid>
+        </content>
+        <db-server type="mysql">
+          <host>localhost</host>
+          <port>3306</port>
+        </db-server>
+        <dbuser name="admin_gift" id="2" default="true" role="readWrite">
+          <password type="sym">$AES-128-CBC$Wdn5+zw6bATAXSNYzWIOqQ==$cyxgzo87k2EhVyADtUcKfw==</password>
+          <acl>
+            <allowed-host>%</allowed-host>
+          </acl>
+          <privileges>
+            <privilege name="File" granted="false"/>
+            <privilege name="Select" granted="true"/>
+            <privilege name="Insert" granted="true"/>
+            <privilege name="Update" granted="true"/>
+            <privilege name="Delete" granted="true"/>
+            <privilege name="Create" granted="true"/>
+            <privilege name="Drop" granted="true"/>
+            <privilege name="References" granted="true"/>
+            <privilege name="Index" granted="true"/>
+            <privilege name="Alter" granted="true"/>
+            <privilege name="Create Temporary Tables" granted="true"/>
+            <privilege name="Lock Tables" granted="true"/>
+            <privilege name="Create View" granted="true"/>
+            <privilege name="Show View" granted="true"/>
+            <privilege name="Create Routine" granted="true"/>
+            <privilege name="Alter Routine" granted="true"/>
+            <privilege name="Execute" granted="true"/>
+            <privilege name="Event" granted="true"/>
+            <privilege name="Trigger" granted="true"/>
+          </privileges>
+        </dbuser>
+        <related-sites>
+          <related-site name="app.b2bgiftplatform.com"/>
+        </related-sites>
+      </database>
+      <database name="gambix_wp378" type="mysql" owner-guid="bf19cd49-7f31-4300-8352-a741328dfb42" version="10.5.12" charset="utf8" id="3" collation="utf8_general_ci">
+        <content>
+          <cid type="sqldump" path="databases/gambix_wp378_1">
+            <content-file size="253034">backup_sqldump_2108110111.tgz</content-file>
+          </cid>
+        </content>
+        <db-server type="mysql">
+          <host>localhost</host>
+          <port>3306</port>
+        </db-server>
+        <dbuser name="gambix_wp378" id="3" default="true" role="readWrite">
+          <password type="sym">$AES-128-CBC$/Tt703OpIEHmQIML/MMGCA==$uoJEcJXaOeTgmn/kdACWug==</password>
+          <acl>
+            <allowed-host>localhost</allowed-host>
+          </acl>
+          <privileges>
+            <privilege name="File" granted="false"/>
+            <privilege name="Select" granted="true"/>
+            <privilege name="Insert" granted="true"/>
+            <privilege name="Update" granted="true"/>
+            <privilege name="Delete" granted="true"/>
+            <privilege name="Create" granted="true"/>
+            <privilege name="Drop" granted="true"/>
+            <privilege name="References" granted="true"/>
+            <privilege name="Index" granted="true"/>
+            <privilege name="Alter" granted="true"/>
+            <privilege name="Create Temporary Tables" granted="true"/>
+            <privilege name="Lock Tables" granted="true"/>
+            <privilege name="Create View" granted="true"/>
+            <privilege name="Show View" granted="true"/>
+            <privilege name="Create Routine" granted="true"/>
+            <privilege name="Alter Routine" granted="true"/>
+            <privilege name="Execute" granted="true"/>
+            <privilege name="Event" granted="true"/>
+            <privilege name="Trigger" granted="true"/>
+          </privileges>
+        </dbuser>
+        <related-sites>
+          <related-site name="b2bgiftplatform.com"/>
+        </related-sites>
+      </database>
+    </databases>
+    <traffic>2021-06-14 http in 0
+2021-06-14 http out 1039203
+2021-06-14 ftp in 0
+2021-06-14 ftp out 0
+2021-06-14 smtp in 0
+2021-06-14 smtp out 0
+2021-06-14 pop3-imap in 0
+2021-06-14 pop3-imap out 0
+</traffic>
+    <certificates>
+      <certificate name="Lets Encrypt b2bgiftplatform.com">
+        <certificate-data>-----BEGIN CERTIFICATE-----
+MIIFYzCCBEugAwIBAgISBH8kzY1DNbu9c/zR6XfajMk+MA0GCSqGSIb3DQEBCwUA
+MDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD
+EwJSMzAeFw0yMTA2MTQwOTM2MjJaFw0yMTA5MTIwOTM2MjFaMB4xHDAaBgNVBAMT
+E2IyYmdpZnRwbGF0Zm9ybS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQC8CJFX2CSuuMi92RU/XxM6GPDhOcusvVE6m9OBS7PwsFoW2xnhgBUMBw4A
+cjqecWI5u3AKcRa6Kv8J9bs+SHkk35yb1znmuSvlqs30JUyq8YBAceu3bBOh4r0C
+g6hNxiQkneQZ/hojj4z+cL8VpLYkUjn1zZMkxDzInUt3Wogi0YK4GdMecZRwKoBY
+W429IOomHe26vcKhqEGhw9DIiFyMbBeuh5jygbo9br5kJDX6wJGD1j3E260P5OIC
+aeOgQRYMc1Pe2szwOJQ2Ju/Ve2N7nMi5Kb4HchmhvxwBWOz6X96HpU7K5EuS45GP
+CIgtMXnUi7xjPhenRXrSeDPjlYfHAgMBAAGjggKFMIICgTAOBgNVHQ8BAf8EBAMC
+BaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAw
+HQYDVR0OBBYEFPE40LYwm2zCqnaJ6piZPOsEu8+xMB8GA1UdIwQYMBaAFBQusxe3
+WFbLrlAJQOYfr52LFMLGMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0
+cDovL3IzLm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vcjMuaS5sZW5j
+ci5vcmcvMFQGA1UdEQRNMEuCE2IyYmdpZnRwbGF0Zm9ybS5jb22CG3dlYm1haWwu
+YjJiZ2lmdHBsYXRmb3JtLmNvbYIXd3d3LmIyYmdpZnRwbGF0Zm9ybS5jb20wTAYD
+VR0gBEUwQzAIBgZngQwBAgEwNwYLKwYBBAGC3xMBAQEwKDAmBggrBgEFBQcCARYa
+aHR0cDovL2Nwcy5sZXRzZW5jcnlwdC5vcmcwggEFBgorBgEEAdZ5AgQCBIH2BIHz
+APEAdgCUILwejtWNbIhzH4KLIiwN0dpNXmxPlD1h204vWE2iwgAAAXoKF/6IAAAE
+AwBHMEUCIQCIcUE0e9lgc5KVNcBUJ7lOZl2Oi+I7O7YaHMj8NOyzLAIgOyh53C94
+Qxfph4pBc7wBpJLuJMnyJreCXAuBJPzxzuIAdwD2XJQv0XcwIhRUGAgwlFaO400T
+GTO/3wwvIAvMTvFk4wAAAXoKF/6VAAAEAwBIMEYCIQDn+dMbvnY9d4723AxLxuiI
+ZRUNrEc6VIpTXD/9kknJGQIhAMPJc3Hbe+83/kaAKFyNj1nX91jomnn7y1fxPtqt
+tnpWMA0GCSqGSIb3DQEBCwUAA4IBAQAEtSkV/t3iS6QHzD53PuOyJAP76C/pgVud
+7FMRIiynzuoz5pBLOLVybDHu6+o+sLHRnyhR2UPdAsjc2qUCAPO89QT7a99lNQRW
+Ffc8sHo6rUG2vYfCqipualEP3PxhVhz8BhGiV2SapsbeCAN+O0j1kSdft7eGXqcE
+Qn+wM97Q2LirbJZMpG+zYdF0jnoKA59a4/XMuzzf9J9EE0s5knkC2D0zrHX0rzWP
+NZAiCYIb9uKih7GcqhFb+6wYJoGXoIyFqUj6+J4FmnrWjy48OQhpdjmQsK04PkJZ
+7mUGuq+6IfEMKUIBg+X5CB8tjr4/DX9Lei6dk1t4nZsjBpTNlvbN
+-----END CERTIFICATE-----</certificate-data>
+        <signing-request>-----BEGIN CERTIFICATE REQUEST-----
+MIIDHzCCAgcCAQAwHjEcMBoGA1UEAwwTYjJiZ2lmdHBsYXRmb3JtLmNvbTCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALwIkVfYJK64yL3ZFT9fEzoY8OE5
+y6y9UTqb04FLs/CwWhbbGeGAFQwHDgByOp5xYjm7cApxFroq/wn1uz5IeSTfnJvX
+Oea5K+WqzfQlTKrxgEBx67dsE6HivQKDqE3GJCSd5Bn+GiOPjP5wvxWktiRSOfXN
+kyTEPMidS3daiCLRgrgZ0x5xlHAqgFhbjb0g6iYd7bq9wqGoQaHD0MiIXIxsF66H
+mPKBuj1uvmQkNfrAkYPWPcTbrQ/k4gJp46BBFgxzU97azPA4lDYm79V7Y3ucyLkp
+vgdyGaG/HAFY7Ppf3oelTsrkS5LjkY8IiC0xedSLvGM+F6dFetJ4M+OVh8cCAwEA
+AaCBuzCBuAYJKoZIhvcNAQkOMYGqMIGnMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXg
+MIGMBgNVHREEgYQwgYGCE2IyYmdpZnRwbGF0Zm9ybS5jb22CF3d3dy5iMmJnaWZ0
+cGxhdGZvcm0uY29tght3ZWJtYWlsLmIyYmdpZnRwbGF0Zm9ybS5jb22CF3d3dy5i
+MmJnaWZ0cGxhdGZvcm0uY29tght3ZWJtYWlsLmIyYmdpZnRwbGF0Zm9ybS5jb20w
+DQYJKoZIhvcNAQELBQADggEBACIDQAtfF+LreP2F2gGwKPnYu/PN04FicoGoLOrD
+uD5NR6ncdb1CcwdS7E33qZZ+xrxSFWmJlWNFL8sWyvOw7hl45jNTYNgfKXOI8MvU
+emdB092lZeg/P//UipX1xaAdIFztyHBotqhionUEi9HNrYBHi+gdIHrySPr61Fei
+RcctW04RoxQuxOASOiRoltMYgYK4NVsG7S5O8ztnRySwGcuL998GxS+71UytmV3s
+cghitWHFCpTYRMwgBBQnFiMc6Esi1P3A7xVCzAYDIJv4tBAo7VsrOSKXq23XamnJ
+B1KaHX1aVxrAxglEVekx+2BuzFjtiIgoiZQzEvrBLNS18io=
+-----END CERTIFICATE REQUEST-----</signing-request>
+        <ca-certificate>-----BEGIN CERTIFICATE-----
+MIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAw
+TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh
+cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAw
+WhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg
+RW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXIo9cP
+R5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdx
+sxPnHKzhm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8Zutm
+NHz6a4uPVymZ+DAXXbpyb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxg
+Z3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3P51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG
+/kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIBBDAOBgNVHQ8BAf8EBAMC
+AYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYB
+Af8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaA
+FHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcw
+AoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRw
+Oi8veDEuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQB
+gt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5HPqP3hUSFvNVneLKYY611TR6W
+PTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8kc607TkC53wl
+ikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQz
+CkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BIm
+lJNXoB1lBMEKIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4
+avAuvDszue5L3sz85K+EC4Y/wFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2
+yJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4jnkDrQoxB3UqQ9hVl3LEKQ73xF1O
+yK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJoi5Lc5da149p90Ids
+hCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxPFin+
+HlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6Zv
+MldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqX
+nLRbwHOoq7hHwg==
+-----END CERTIFICATE-----
+
+-----BEGIN CERTIFICATE-----
+MIIFYDCCBEigAwIBAgIQQAF3ITfU6UK47naqPGQKtzANBgkqhkiG9w0BAQsFADA/
+MSQwIgYDVQQKExtEaWdpdGFsIFNpZ25hdHVyZSBUcnVzdCBDby4xFzAVBgNVBAMT
+DkRTVCBSb290IENBIFgzMB4XDTIxMDEyMDE5MTQwM1oXDTI0MDkzMDE4MTQwM1ow
+TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh
+cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwggIiMA0GCSqGSIb3DQEB
+AQUAA4ICDwAwggIKAoICAQCt6CRz9BQ385ueK1coHIe+3LffOJCMbjzmV6B493XC
+ov71am72AE8o295ohmxEk7axY/0UEmu/H9LqMZshftEzPLpI9d1537O4/xLxIZpL
+wYqGcWlKZmZsj348cL+tKSIG8+TA5oCu4kuPt5l+lAOf00eXfJlII1PoOK5PCm+D
+LtFJV4yAdLbaL9A4jXsDcCEbdfIwPPqPrt3aY6vrFk/CjhFLfs8L6P+1dy70sntK
+4EwSJQxwjQMpoOFTJOwT2e4ZvxCzSow/iaNhUd6shweU9GNx7C7ib1uYgeGJXDR5
+bHbvO5BieebbpJovJsXQEOEO3tkQjhb7t/eo98flAgeYjzYIlefiN5YNNnWe+w5y
+sR2bvAP5SQXYgd0FtCrWQemsAXaVCg/Y39W9Eh81LygXbNKYwagJZHduRze6zqxZ
+Xmidf3LWicUGQSk+WT7dJvUkyRGnWqNMQB9GoZm1pzpRboY7nn1ypxIFeFntPlF4
+FQsDj43QLwWyPntKHEtzBRL8xurgUBN8Q5N0s8p0544fAQjQMNRbcTa0B7rBMDBc
+SLeCO5imfWCKoqMpgsy6vYMEG6KDA0Gh1gXxG8K28Kh8hjtGqEgqiNx2mna/H2ql
+PRmP6zjzZN7IKw0KKP/32+IVQtQi0Cdd4Xn+GOdwiK1O5tmLOsbdJ1Fu/7xk9TND
+TwIDAQABo4IBRjCCAUIwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYw
+SwYIKwYBBQUHAQEEPzA9MDsGCCsGAQUFBzAChi9odHRwOi8vYXBwcy5pZGVudHJ1
+c3QuY29tL3Jvb3RzL2RzdHJvb3RjYXgzLnA3YzAfBgNVHSMEGDAWgBTEp7Gkeyxx
++tvhS5B1/8QVYIWJEDBUBgNVHSAETTBLMAgGBmeBDAECATA/BgsrBgEEAYLfEwEB
+ATAwMC4GCCsGAQUFBwIBFiJodHRwOi8vY3BzLnJvb3QteDEubGV0c2VuY3J5cHQu
+b3JnMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9jcmwuaWRlbnRydXN0LmNvbS9E
+U1RST09UQ0FYM0NSTC5jcmwwHQYDVR0OBBYEFHm0WeZ7tuXkAXOACIjIGlj26Ztu
+MA0GCSqGSIb3DQEBCwUAA4IBAQAKcwBslm7/DlLQrt2M51oGrS+o44+/yQoDFVDC
+5WxCu2+b9LRPwkSICHXM6webFGJueN7sJ7o5XPWioW5WlHAQU7G75K/QosMrAdSW
+9MUgNTP52GE24HGNtLi1qoJFlcDyqSMo59ahy2cI2qBDLKobkx/J3vWraV0T9VuG
+WCLKTVXkcGdtwlfFRjlBz4pYg1htmf5X6DYO8A4jqv2Il9DjXA6USbW1FzXSLr9O
+he8Y4IWS6wY7bCkjCWDcRQJMEhg76fsO3txE+FiYruq9RUWhiF1myv4Q6W+CyBFC
+Dfvp7OOGAN6dEOM4+qR9sdjoSYKEBpsr6GtPAQw4dy753ec5
+-----END CERTIFICATE-----</ca-certificate>
+        <private-key>-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC8CJFX2CSuuMi9
+2RU/XxM6GPDhOcusvVE6m9OBS7PwsFoW2xnhgBUMBw4AcjqecWI5u3AKcRa6Kv8J
+9bs+SHkk35yb1znmuSvlqs30JUyq8YBAceu3bBOh4r0Cg6hNxiQkneQZ/hojj4z+
+cL8VpLYkUjn1zZMkxDzInUt3Wogi0YK4GdMecZRwKoBYW429IOomHe26vcKhqEGh
+w9DIiFyMbBeuh5jygbo9br5kJDX6wJGD1j3E260P5OICaeOgQRYMc1Pe2szwOJQ2
+Ju/Ve2N7nMi5Kb4HchmhvxwBWOz6X96HpU7K5EuS45GPCIgtMXnUi7xjPhenRXrS
+eDPjlYfHAgMBAAECggEAMKSexPTbeH/BHqvb/UrhNHRjTEChWgyXyOuq6ZXl9OwK
+QkNoDJgP2c6xZpgmZfq7CGhe8bSTxpF87NyvFcu12z4ly4MALZnVq1JmeTR1Avv6
+y7Es44SIB6cacl4Q2h3aF8bozXiY1n46YVBVfonfvMGw0M/fsvE5METQ0w2OjkLn
+CWeqzuYIj6JLHGs1ZKyCvDSyTJ3mhPzLf+lp9fcfsklehtWG64uHDiYdskgRzasw
+CxJpFd8eAPJKIML40EwfWcZIscW93n5TnrVoJlld8vyJFenpfR25pI+/ZVrKw699
+WnEv6c7IW4b7vXI2Z1mUC4vYrkDgGfeWeakmNXaqcQKBgQDtaWgoly8Yn5pla9Q0
+Ygp3rwTrDpIlUHLzEkm6EQtVpn2YwrEMAyRWjzSPryfMbnQzlEAUrkyAgR7NO5XR
+b2O9v5VkR+6RnbvTHFh/Zt217KcVNfzx2ela0RdTS4Q0LTyEfCnV5M2EoV207qlG
+pcgme81+TOBag64WbRl8UG54owKBgQDKwXDioVbYn1M2RhhehYyoBy/8Cf8skdCl
+IaDGqui5FVQat3i5jbF8TEXm8oFwb/yN6zNn/TgM/5gZ/DwGD8/4z7nuYXacUatC
+dZEXYLtE0luAjy3kzhX58OrjPSbFkYVNg12Zh356r3Tmna9gjOC2eWPprbtpcaGX
+xsTDQLHyjQKBgBOo3eI2msTMOqnZYwovcDR2/s5EN5/1aH9ubUKGNM0T62SiAq0+
++VxdoXmghIguQVsgFKphwJ4HkzhljcN5GOZWnhVey4etaydROpbaOtPc0/0yqk6Q
+v/0wQWE5aKo1cMR7z68Rsl8gSbU46jWadteQ+vRRg2abbugWgrzDoFJHAoGAC9Vo
+ckG6YOBDqgpDR9kBkZkByvMGaqKEC+8/g/jbplnBU+HbcPD9J+UHu2fx+A8BLYNJ
+t8sGp3OPfAzFsBDiMYJmNqyHkK4Pkcxs0HF73JNudb1lj1Ib5D+UZfjet2872X9O
+SjSnRB/TcdZIMxll0CCbnTrfklLofIREXaT7/c0CgYEA4/NA54ealyHAVBWLGIvD
+EETB49s52HRh7JTvqm2lmendheKR3CMpuqbxYxY3igxrY+IePxYSNtRErLb6yIis
+hGR1fAlNHQUAwaLMXyuHaJtKaA2YIIS7zbc77sOa1J6UtKTHvcI8P4HyEjUIuUQX
+xtYllGPr5QBlZGvDQXSHFMM=
+-----END PRIVATE KEY-----</private-key>
+      </certificate>
+      <certificate name="Lets Encrypt app.b2bgiftplatform.com">
+        <certificate-data>-----BEGIN CERTIFICATE-----
+MIIFNDCCBBygAwIBAgISA+l+nbvzYK8NPBo7haW4B1uPMA0GCSqGSIb3DQEBCwUA
+MDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD
+EwJSMzAeFw0yMTA2MTUxOTA4MzZaFw0yMTA5MTMxOTA4MzVaMCIxIDAeBgNVBAMT
+F2FwcC5iMmJnaWZ0cGxhdGZvcm0uY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEA3cs7AGlZWLTzDgiIvQyzZJlh9n6NO20sAaGtC3FicqbZfOzPsbYg
+OfGb1aywLeyLoY+EhHsd/eqdCfFiZxxWgb0UGDznCRSURQ7ZTrGAYHeqd9qzTzqc
+bAe/4bVhBmIOXDmtxnyo5clopUf6ANEgXHAco7n3OBJvB0jsoSuA3Q5+81zGFC4U
+3MGqwXfDb+mG0JB2FtKowMJ1/N/dSZh8t9zKnzr+ftHWJAjB+cbYQdrqFV0vIcbl
+351MqHunV8qTHBP8rtFelfhu6Oq1yPU8TYrDpfEXaahK7+D/1mNZAcgZpJXAdy4E
+IA0hSDaTcCrUvFHmWfBGdDzQfnc69GcAAwIDAQABo4ICUjCCAk4wDgYDVR0PAQH/
+BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8E
+AjAAMB0GA1UdDgQWBBQg/RGs2onOspHIY/ZTMrBjQ5Fd5jAfBgNVHSMEGDAWgBQU
+LrMXt1hWy65QCUDmH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGG
+FWh0dHA6Ly9yMy5vLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmku
+bGVuY3Iub3JnLzAiBgNVHREEGzAZghdhcHAuYjJiZ2lmdHBsYXRmb3JtLmNvbTBM
+BgNVHSAERTBDMAgGBmeBDAECATA3BgsrBgEEAYLfEwEBATAoMCYGCCsGAQUFBwIB
+FhpodHRwOi8vY3BzLmxldHNlbmNyeXB0Lm9yZzCCAQQGCisGAQQB1nkCBAIEgfUE
+gfIA8AB1APZclC/RdzAiFFQYCDCUVo7jTRMZM7/fDC8gC8xO8WTjAAABehFKQccA
+AAQDAEYwRAIgN//xO0lEVE4A/A6QpwlvRkZSC/06q5v+xBEy/gpHxVwCIAcNCw+c
+un4GssQALBochy62gsLE87Iqe6M3Gozl2xEsAHcAb1N2rDHwMRnYmQCkURX/dxUc
+EdkCwQApBo2yCJo32RMAAAF6EUpDEQAABAMASDBGAiEAhxY3m2Kd2pA/EwFJ9KDF
+zv3Nyydznv7+DtePTTmfXkoCIQDgrQF6LNNn8O83StsHQTCjyauoR3OrBna1eSfc
+deH/BjANBgkqhkiG9w0BAQsFAAOCAQEAhM2PUS6beRmB/KUqFQcAwQ7yO0w2BtIe
+reQWjcWqJtpLqFqtjiFQEwFxo0RyhYNfIfMEFL2TF+8LWi/cLqwW7lpK9yBgGOJk
+tNUFV5SVYX5WXGkJXm1pd3zfqbCtYDOr9PH63BvQ2Y1nU6MzKxGT2IMvnZbuEF7X
+fd4tY3w+eJzQgKP0C+qXkBThIXjL8Sw+m/ITC+S0agjuuvQflgDyyn2KbyA/PYZt
+ERCru4WrzFGAvtxsj6rOErPZfwjmk0XHmOsi3EPneK5ttyC5SRGTpuPmjqbm+Wao
++wHRqOdWIReWbDvYjsUKPQ4CXrkzcpZunTmuccvYeUEUrOAi7u9emw==
+-----END CERTIFICATE-----</certificate-data>
+        <signing-request>-----BEGIN CERTIFICATE REQUEST-----
+MIICtDCCAZwCAQAwIjEgMB4GA1UEAwwXYXBwLmIyYmdpZnRwbGF0Zm9ybS5jb20w
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDdyzsAaVlYtPMOCIi9DLNk
+mWH2fo07bSwBoa0LcWJyptl87M+xtiA58ZvVrLAt7Iuhj4SEex396p0J8WJnHFaB
+vRQYPOcJFJRFDtlOsYBgd6p32rNPOpxsB7/htWEGYg5cOa3GfKjlyWilR/oA0SBc
+cByjufc4Em8HSOyhK4DdDn7zXMYULhTcwarBd8Nv6YbQkHYW0qjAwnX8391JmHy3
+3MqfOv5+0dYkCMH5xthB2uoVXS8hxuXfnUyoe6dXypMcE/yu0V6V+G7o6rXI9TxN
+isOl8RdpqErv4P/WY1kByBmklcB3LgQgDSFINpNwKtS8UeZZ8EZ0PNB+dzr0ZwAD
+AgMBAAGgTTBLBgkqhkiG9w0BCQ4xPjA8MAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXg
+MCIGA1UdEQQbMBmCF2FwcC5iMmJnaWZ0cGxhdGZvcm0uY29tMA0GCSqGSIb3DQEB
+CwUAA4IBAQCs8lpXr9NkegpL4NhfWTWR4E7BnQV9kyIGwgcZXmMzYame+9t0pMnV
+Bf3ahdIv89V2b/FpU9/d3KmOnATx9NduaEihUokcOxhA3JVW+SQhKCz0JkBbmMIJ
+w5xyI0y6Wu1Gu/6yPaw5E4dW7fQ3m+bJ3baMc3KxoeEOFyeiz+lVwRnS/q9geMga
+t0SA7Dfl8xqRmnq7A6zdFiD3tqYG8iF0cZPfF1xmrYJCASGprsu/aa5nBWwmMe9d
+JpsTngHujB5phmJqAZPQZiQOs5K7MfdPkQIg8lz5KEjY2Bi6u7eS1Mlk9ZJXNuT9
+UYpN67DsEeXcipMtFEtbf7EcccvHhPAT
+-----END CERTIFICATE REQUEST-----</signing-request>
+        <ca-certificate>-----BEGIN CERTIFICATE-----
+MIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAw
+TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh
+cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAw
+WhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg
+RW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXIo9cP
+R5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdx
+sxPnHKzhm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8Zutm
+NHz6a4uPVymZ+DAXXbpyb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxg
+Z3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3P51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG
+/kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIBBDAOBgNVHQ8BAf8EBAMC
+AYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYB
+Af8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaA
+FHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcw
+AoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRw
+Oi8veDEuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQB
+gt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5HPqP3hUSFvNVneLKYY611TR6W
+PTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8kc607TkC53wl
+ikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQz
+CkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BIm
+lJNXoB1lBMEKIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4
+avAuvDszue5L3sz85K+EC4Y/wFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2
+yJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4jnkDrQoxB3UqQ9hVl3LEKQ73xF1O
+yK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJoi5Lc5da149p90Ids
+hCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxPFin+
+HlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6Zv
+MldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqX
+nLRbwHOoq7hHwg==
+-----END CERTIFICATE-----
+
+-----BEGIN CERTIFICATE-----
+MIIFYDCCBEigAwIBAgIQQAF3ITfU6UK47naqPGQKtzANBgkqhkiG9w0BAQsFADA/
+MSQwIgYDVQQKExtEaWdpdGFsIFNpZ25hdHVyZSBUcnVzdCBDby4xFzAVBgNVBAMT
+DkRTVCBSb290IENBIFgzMB4XDTIxMDEyMDE5MTQwM1oXDTI0MDkzMDE4MTQwM1ow
+TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh
+cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwggIiMA0GCSqGSIb3DQEB
+AQUAA4ICDwAwggIKAoICAQCt6CRz9BQ385ueK1coHIe+3LffOJCMbjzmV6B493XC
+ov71am72AE8o295ohmxEk7axY/0UEmu/H9LqMZshftEzPLpI9d1537O4/xLxIZpL
+wYqGcWlKZmZsj348cL+tKSIG8+TA5oCu4kuPt5l+lAOf00eXfJlII1PoOK5PCm+D
+LtFJV4yAdLbaL9A4jXsDcCEbdfIwPPqPrt3aY6vrFk/CjhFLfs8L6P+1dy70sntK
+4EwSJQxwjQMpoOFTJOwT2e4ZvxCzSow/iaNhUd6shweU9GNx7C7ib1uYgeGJXDR5
+bHbvO5BieebbpJovJsXQEOEO3tkQjhb7t/eo98flAgeYjzYIlefiN5YNNnWe+w5y
+sR2bvAP5SQXYgd0FtCrWQemsAXaVCg/Y39W9Eh81LygXbNKYwagJZHduRze6zqxZ
+Xmidf3LWicUGQSk+WT7dJvUkyRGnWqNMQB9GoZm1pzpRboY7nn1ypxIFeFntPlF4
+FQsDj43QLwWyPntKHEtzBRL8xurgUBN8Q5N0s8p0544fAQjQMNRbcTa0B7rBMDBc
+SLeCO5imfWCKoqMpgsy6vYMEG6KDA0Gh1gXxG8K28Kh8hjtGqEgqiNx2mna/H2ql
+PRmP6zjzZN7IKw0KKP/32+IVQtQi0Cdd4Xn+GOdwiK1O5tmLOsbdJ1Fu/7xk9TND
+TwIDAQABo4IBRjCCAUIwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYw
+SwYIKwYBBQUHAQEEPzA9MDsGCCsGAQUFBzAChi9odHRwOi8vYXBwcy5pZGVudHJ1
+c3QuY29tL3Jvb3RzL2RzdHJvb3RjYXgzLnA3YzAfBgNVHSMEGDAWgBTEp7Gkeyxx
++tvhS5B1/8QVYIWJEDBUBgNVHSAETTBLMAgGBmeBDAECATA/BgsrBgEEAYLfEwEB
+ATAwMC4GCCsGAQUFBwIBFiJodHRwOi8vY3BzLnJvb3QteDEubGV0c2VuY3J5cHQu
+b3JnMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9jcmwuaWRlbnRydXN0LmNvbS9E
+U1RST09UQ0FYM0NSTC5jcmwwHQYDVR0OBBYEFHm0WeZ7tuXkAXOACIjIGlj26Ztu
+MA0GCSqGSIb3DQEBCwUAA4IBAQAKcwBslm7/DlLQrt2M51oGrS+o44+/yQoDFVDC
+5WxCu2+b9LRPwkSICHXM6webFGJueN7sJ7o5XPWioW5WlHAQU7G75K/QosMrAdSW
+9MUgNTP52GE24HGNtLi1qoJFlcDyqSMo59ahy2cI2qBDLKobkx/J3vWraV0T9VuG
+WCLKTVXkcGdtwlfFRjlBz4pYg1htmf5X6DYO8A4jqv2Il9DjXA6USbW1FzXSLr9O
+he8Y4IWS6wY7bCkjCWDcRQJMEhg76fsO3txE+FiYruq9RUWhiF1myv4Q6W+CyBFC
+Dfvp7OOGAN6dEOM4+qR9sdjoSYKEBpsr6GtPAQw4dy753ec5
+-----END CERTIFICATE-----</ca-certificate>
+        <private-key>-----BEGIN PRIVATE KEY-----
+MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDdyzsAaVlYtPMO
+CIi9DLNkmWH2fo07bSwBoa0LcWJyptl87M+xtiA58ZvVrLAt7Iuhj4SEex396p0J
+8WJnHFaBvRQYPOcJFJRFDtlOsYBgd6p32rNPOpxsB7/htWEGYg5cOa3GfKjlyWil
+R/oA0SBccByjufc4Em8HSOyhK4DdDn7zXMYULhTcwarBd8Nv6YbQkHYW0qjAwnX8
+391JmHy33MqfOv5+0dYkCMH5xthB2uoVXS8hxuXfnUyoe6dXypMcE/yu0V6V+G7o
+6rXI9TxNisOl8RdpqErv4P/WY1kByBmklcB3LgQgDSFINpNwKtS8UeZZ8EZ0PNB+
+dzr0ZwADAgMBAAECggEBANj92k2+xBELh7g1FUKQSHqlrbgxfA+l8aXu/ZPybHTr
+VGDqdxDQtJq8DNByUTO896cq+GV85ozjmpx9st5aVTA9QomsHAVAQweFTYm2E3lN
+2lPEfiWHnD39Hve+MpzCFnaYX7GPiNa3xE/gKXHfKCAH950fdgU/06x25juQilS5
+5ajrBhSU/PFf7vmAWwm9tcqCr7Kbw4FFSuht0K7KJH0ukOXIyDIQfNexbGYwl3P9
+haV+tXfCadGMfUxaNgxeyitEe6aUlCxEN5twMbVZvV3B2nYgcLNjru0RppYt6sWs
+t0bhWb/dVAMQUBy86SFYfnlnmq1cwFQdwCVCqNLS0kECgYEA8CywNweE4YDPzbai
+8mQh6LS2wOvTr+zKSe3lhwXMWIwcsCokqbsHK72exhaIWOuLdPlkNFlJhWCDGJ6U
+wilqpSyEzuWUv9yeWRJ0LPyyzjEa1K0/n9TfqdGUKDLj2bFVDhbkqVy0Q4KlAbkb
+F3Lhb0J7GGom6j0slQZiC2dTejECgYEA7Gh+M0SsY34yt+3Sz2SGb4egNHK2wrtK
+ruoTNOhtNQvmocpa9Of6bASydTvF34ynfyBxYsHxOqFl3ELa2hJBVe+Qjn/gCSP0
+K3KBDewZV89qFFOgP1+dv0aXcTI7nFWaGOoaVWx0xSQVylYAJK1nS0K7fInz3fjt
+/YoJ1pz13HMCgYEA6JPd8OwvGdCLa0I5eVDOJXMapqe4TtyW6BCf/Kj4waatAUtO
+Ra7/urPdVSXs028FlTkMeEUelTJowSaQF5XT2C/MTC62ZTVXghoEtqve2x1iRiGf
+Qz/5d5GkT2k4jE7Vdtdkhz1msxmIgKqoOYTeGcffPD1PgfXLfmS3/SMKC4ECgYAW
+k+gxl0Zrfhrz6/etLOmV7zsCp04DDQYV7G8HJ4d+gHN3Ui8boqgM9ungPmQodHNu
+tbd+eg1CzzU+MvhZyVKKFYYVxeqslM119MqUfM7yzvFPnaj5RHV5VhGSkvyUcqxz
+4q+/JsuEJG0cVNhQqGrsCiSDwV0T/vkjtLI51+W3NwKBgQDjACNzyAxSP/0sIRzy
+lMqDtjEtCOELQvdH8bJp5CiFj1amUfwAJxQEm2ZA5DBsbRPpnDZHLNG/LKuLYVwE
+uBY3Yl7/yNH7OpnnSo/F9IXcvL6nKtUghvAzqbCA9p6j5jo5MtS+j7rVv7Kry9yj
+M7SO09ydRrV81ZIVtg1zOaz9WQ==
+-----END PRIVATE KEY-----</private-key>
+      </certificate>
+    </certificates>
+    <php-settings>
+      <notice-text/>
+      <setting>
+        <name>disable_functions</name>
+        <value>opcache_get_status</value>
+      </setting>
+      <setting>
+        <name>enableFastcgi</name>
+        <value>on</value>
+      </setting>
+      <setting>
+        <name>error_reporting</name>
+        <value>E_ALL &amp; ~E_NOTICE &amp; ~E_STRICT &amp; ~E_DEPRECATED</value>
+      </setting>
+      <setting>
+        <name>open_basedir</name>
+        <value>{WEBSPACEROOT}{/}{:}{TMP}{/}</value>
+      </setting>
+      <setting>
+        <name>pm</name>
+        <value>ondemand</value>
+      </setting>
+      <setting>
+        <name>pm.max_children</name>
+        <value>10</value>
+      </setting>
+      <setting>
+        <name>pm.max_spare_servers</name>
+        <value>1</value>
+      </setting>
+      <setting>
+        <name>pm.min_spare_servers</name>
+        <value>1</value>
+      </setting>
+      <setting>
+        <name>pm.start_servers</name>
+        <value>1</value>
+      </setting>
+      <setting>
+        <name>safe_mode</name>
+        <value>off</value>
+      </setting>
+    </php-settings>
+    <phosting https="true" webstat="awstats" errdocs="true" shared-content="true" at-domains="false" wu_script="true" www-root="httpdocs" certificate="2d11afd6cdfddfc79821f853ac1080f5" original-conf-directory="/var/www/vhosts/system/b2bgiftplatform.com/conf" sslRedirect="true">
+      <content>
+        <cid type="user-data" indexed="true">
+          <content-file size="1780792042">backup_user-data_2108110111.tgz</content-file>
+          <exclude-item>logs</exclude-item>
+          <exclude-item>httpdocs/plesk-stat</exclude-item>
+          <exclude-item>httpsdocs/plesk-stat</exclude-item>
+          <exclude-item>app.b2bgiftplatform.com/public/plesk-stat</exclude-item>
+        </cid>
+        <cid type="apache-files" indexed="true">
+          <content-file size="45">backup_apache-files_2108110111.tgz</content-file>
+          <exclude-item>logs</exclude-item>
+          <exclude-item>httpdocs/plesk-stat</exclude-item>
+          <exclude-item>httpsdocs/plesk-stat</exclude-item>
+          <exclude-item>app.b2bgiftplatform.com/public/plesk-stat</exclude-item>
+        </cid>
+        <cid type="pd" path="">
+          <content-file size="190">backup_pd_2108110111.tgz</content-file>
+        </cid>
+        <cid type="conf" path="">
+          <content-file size="45">backup_conf_2108110111.tgz</content-file>
+          <exclude-item>httpd.conf</exclude-item>
+          <exclude-item>httpd.conf.bak</exclude-item>
+          <exclude-item>last_httpd.conf</exclude-item>
+          <exclude-item>vhost.conf</exclude-item>
+          <exclude-item>vhost_ssl.conf</exclude-item>
+          <exclude-item>httpd_ip_default.conf</exclude-item>
+          <exclude-item>httpd_ip_default.conf.bak</exclude-item>
+          <exclude-item>last_ip_default.conf</exclude-item>
+          <exclude-item>nginx.conf</exclude-item>
+          <exclude-item>nginx.conf.bak</exclude-item>
+          <exclude-item>last_nginx.conf</exclude-item>
+          <exclude-item>vhost_nginx.conf</exclude-item>
+          <exclude-item>nginx_ip_default.conf</exclude-item>
+          <exclude-item>nginx_ip_default.conf.bak</exclude-item>
+          <exclude-item>modsecurity_nginx.conf</exclude-item>
+          <exclude-item>modsecurity_nginx.conf.bak</exclude-item>
+          <exclude-item>siteapp.d</exclude-item>
+          <exclude-item>siteapp_ssl.d</exclude-item>
+          <exclude-item>stat_ttl.conf</exclude-item>
+          <exclude-item>webalizer.conf</exclude-item>
+          <exclude-item>prev_month.found</exclude-item>
+        </cid>
+        <cid type="logs" path="">
+          <content-file size="5422455">backup_logs_2108110111.tgz</content-file>
+        </cid>
+        <cid type="statistics" path="">
+          <content-file size="505393">backup_statistics_2108110111.tgz</content-file>
+        </cid>
+      </content>
+      <preferences>
+        <sysuser name="sysuser_2" quota="0" shell="/bin/false">
+          <password type="sym">$AES-128-CBC$oxNaL9Zw+hOUxNPiHuF/bw==$78+TA+iZR9sAWEzS+gMtWg==</password>
+        </sysuser>
+        <logrotation max-number-of-logfiles="10" compress="true" enabled="true">
+          <logrotation-maxsize>10485760</logrotation-maxsize>
+        </logrotation>
+        <pdir name="plesk-stat" title="Domain statistics" ssl="false" nonssl="true" cgi="false">
+          <pduser name="sysuser_2"/>
+        </pdir>
+        <webalizer hide-direct-referrer="false"/>
+        <perfomance>
+          <max-connections>-1</max-connections>
+          <traffic-bandwidth>-1</traffic-bandwidth>
+        </perfomance>
+        <web-stat stat-ttl="3"/>
+      </preferences>
+      <properties>
+        <ip>
+          <ip-type>shared</ip-type>
+          <ip-address>67.227.213.150</ip-address>
+        </ip>
+      </properties>
+      <limits-and-permissions>
+        <scripting ssi="false" ssi_html="false" php="true" php_handler_type="fpm" php_version="7.4" php_handler_id="plesk-php74-fpm" cgi="false" perl="false" asp="false" asp_dot_net="false" fastcgi="true" webdeploy="false"/>
+      </limits-and-permissions>
+      <php-settings>
+        <notice-text/>
+        <setting>
+          <name>disable_functions</name>
+          <value>opcache_get_status</value>
+        </setting>
+        <setting>
+          <name>enableFastcgi</name>
+          <value>on</value>
+        </setting>
+        <setting>
+          <name>error_reporting</name>
+          <value>E_ALL &amp; ~E_NOTICE &amp; ~E_STRICT &amp; ~E_DEPRECATED</value>
+        </setting>
+        <setting>
+          <name>memory_limit</name>
+          <value>256M</value>
+        </setting>
+        <setting>
+          <name>open_basedir</name>
+          <value>{WEBSPACEROOT}{/}{:}{TMP}{/}</value>
+        </setting>
+        <setting>
+          <name>pm</name>
+          <value>ondemand</value>
+        </setting>
+        <setting>
+          <name>pm.max_children</name>
+          <value>10</value>
+        </setting>
+        <setting>
+          <name>pm.max_spare_servers</name>
+          <value>1</value>
+        </setting>
+        <setting>
+          <name>pm.min_spare_servers</name>
+          <value>1</value>
+        </setting>
+        <setting>
+          <name>pm.start_servers</name>
+          <value>1</value>
+        </setting>
+        <setting>
+          <name>safe_mode</name>
+          <value>off</value>
+        </setting>
+      </php-settings>
+      <web-settings vhost-name="b2bgiftplatform.com">
+        <setting>
+          <name>mimeTypes</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>handlers</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>deny</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>allow</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>directoryIndex</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>expires</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>expiresStaticOnly</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </setting>
+        <setting>
+          <name>headers</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>restrictFollowSymLinks</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </setting>
+        <setting>
+          <name>nginxProxyMode</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </setting>
+        <setting>
+          <name>nginxTransparentMode</name>
+          <value encoding="base64">ZmFsc2U=</value>
+        </setting>
+        <setting>
+          <name>nginxServeStatic</name>
+          <value encoding="base64">ZmFsc2U=</value>
+        </setting>
+        <setting>
+          <name>nginxStaticExtensions</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>nginxServePhp</name>
+          <value encoding="base64">ZmFsc2U=</value>
+        </setting>
+        <setting>
+          <name>nginxCacheEnabled</name>
+          <value encoding="base64">ZmFsc2U=</value>
+        </setting>
+        <setting>
+          <name>nginxCacheSize</name>
+          <value encoding="base64">NjcxMDg4NjQ=</value>
+        </setting>
+        <setting>
+          <name>nginxCacheTimeout</name>
+          <value encoding="base64">NQ==</value>
+        </setting>
+        <setting>
+          <name>nginxCacheKey</name>
+          <value encoding="base64">JHNjaGVtZSRyZXF1ZXN0X21ldGhvZCRob3N0JHJlcXVlc3RfdXJp</value>
+        </setting>
+        <setting>
+          <name>nginxCacheCookies</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>nginxCacheBypassLocations</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>nginxCacheBypassHeaderNocache</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </setting>
+        <setting>
+          <name>nginxCacheBypassHeaderAuth</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </setting>
+        <setting>
+          <name>nginxCacheBypassGetNocache</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </setting>
+        <setting>
+          <name>nginxCacheUseStale5xx</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </setting>
+        <setting>
+          <name>nginxCacheUseStale4xx</name>
+          <value encoding="base64">ZmFsc2U=</value>
+        </setting>
+        <setting>
+          <name>nginxCacheUseStaleUpdating</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </setting>
+        <setting>
+          <name>ruleEngine</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>filterById</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>filterByTag</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>filterByRegexp</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>additionalSettings</name>
+          <value encoding="base64" compression="gzencode">H4sIAAAAAAAAAwMAAAAAAAAAAAA=</value>
+        </setting>
+        <setting>
+          <name>additionalSslSettings</name>
+          <value encoding="base64" compression="gzencode">H4sIAAAAAAAAAwMAAAAAAAAAAAA=</value>
+        </setting>
+        <setting>
+          <name>additionalNginxSettings</name>
+          <value encoding="base64" compression="gzencode">H4sIAAAAAAAAAwMAAAAAAAAAAAA=</value>
+        </setting>
+      </web-settings>
+      <sites>
+        <site id="8" guid="392d49a1-1976-4e23-a881-c98d06a93c31" external-id="" name="app.b2bgiftplatform.com" www="true" cr-date="2021-06-14" parent-domain-name="b2bgiftplatform.com">
+          <preferences>
+            <descriptions>
+              <description/>
+            </descriptions>
+          </preferences>
+          <properties>
+            <status>
+              <enabled/>
+            </status>
+            <dns-zone email="gambixa@gmail.com" type="master" serial-format="YYYYMMDDNN" sync-with-parent="false" external-id="" rnameType="owner" mname="">
+              <status>
+                <enabled/>
+              </status>
+              <dns-zone-param name="ttl" unit="days" value="86400"/>
+              <dns-zone-param name="refresh" unit="hours" value="10800"/>
+              <dns-zone-param name="retry" unit="hours" value="3600"/>
+              <dns-zone-param name="expire" unit="days" value="604800"/>
+              <dns-zone-param name="minimum" unit="hours" value="10800"/>
+              <dnsrec type="CNAME" src="www.app.b2bgiftplatform.com." dst="app.b2bgiftplatform.com." opt="" external-id=""/>
+              <dnsrec type="TXT" src="_domainconnect.app.b2bgiftplatform.com." dst="domainconnect.plesk.com/host/cloudvpsserver.b2bgiftplatform.com/port/8443" opt="" status="syn" external-id=""/>
+              <dnsrec type="TXT" src="_dmarc.app.b2bgiftplatform.com." dst="v=DMARC1; p=none" opt="" status="syn" external-id=""/>
+              <dnsrec type="TXT" src="app.b2bgiftplatform.com." dst="v=spf1 +a +mx +a:cloudvpsserver.b2bgiftplatform.com -all" opt="" status="syn" external-id=""/>
+              <dnsrec type="CNAME" src="ftp.app.b2bgiftplatform.com." dst="app.b2bgiftplatform.com." opt="" status="syn" external-id=""/>
+              <dnsrec type="A" src="ipv4.app.b2bgiftplatform.com." dst="67.227.213.150" opt="" status="syn" external-id=""/>
+              <dnsrec type="A" src="mail.app.b2bgiftplatform.com." dst="67.227.213.150" opt="" status="syn" external-id=""/>
+              <dnsrec type="MX" src="app.b2bgiftplatform.com." dst="mail.app.b2bgiftplatform.com." opt="10" status="syn" external-id=""/>
+              <dnsrec type="A" src="webmail.app.b2bgiftplatform.com." dst="67.227.213.150" opt="" status="syn" external-id=""/>
+              <dnsrec type="A" src="app.b2bgiftplatform.com." dst="67.227.213.150" opt="" status="syn" external-id=""/>
+              <dnsrec type="A" src="ns2.app.b2bgiftplatform.com." dst="67.227.213.150" opt="" status="syn" external-id=""/>
+              <dnsrec type="NS" src="app.b2bgiftplatform.com." dst="ns2.app.b2bgiftplatform.com." opt="" status="syn" external-id=""/>
+              <dnsrec type="A" src="ns1.app.b2bgiftplatform.com." dst="67.227.213.150" opt="" status="syn" external-id=""/>
+              <dnsrec type="NS" src="app.b2bgiftplatform.com." dst="ns1.app.b2bgiftplatform.com." opt="" status="syn" external-id=""/>
+              <dnsrec type="TXT" src="_acme-challenge.app.b2bgiftplatform.com." dst="gipcnfPsRh7V3QvLAB4QvKfhx52SUQPFI8iErEDi0sY" opt="" external-id=""/>
+            </dns-zone>
+            <dom-param>
+              <param>
+                <name>apacheErrorDocs</name>
+                <value encoding="base64">dHJ1ZQ==</value>
+              </param>
+              <param>
+                <name>cgi_bin_mode</name>
+                <value encoding="base64">d3d3LXJvb3Q=</value>
+              </param>
+              <param>
+                <name>ext-domain-connect-configureLinkClicked</name>
+                <value encoding="base64">MA==</value>
+              </param>
+              <param>
+                <name>ext-domain-connect-configureUrl</name>
+                <value encoding="base64"/>
+              </param>
+              <param>
+                <name>ext-domain-connect-connectable</name>
+                <value encoding="base64">MA==</value>
+              </param>
+              <param>
+                <name>ext-domain-connect-connected</name>
+                <value encoding="base64">MQ==</value>
+              </param>
+              <param>
+                <name>ext-domain-connect-enabled</name>
+                <value encoding="base64">MQ==</value>
+              </param>
+              <param>
+                <name>ext-letsencrypt-registrationEmail</name>
+                <value encoding="base64">Z2FtYml4YUBnbWFpbC5jb20=</value>
+              </param>
+              <param>
+                <name>ext-sslit-hsts.configuration</name>
+                <value encoding="base64">eyJtYXhBZ2UiOjE1NzY4MDAwLCJpbmNsdWRlU3ViZG9tYWlucyI6dHJ1ZSwiYXBwbHlUb1dlYk1haWwiOmZhbHNlfQ==</value>
+              </param>
+              <param>
+                <name>ext-sslit-hsts.enabled</name>
+                <value encoding="base64">MQ==</value>
+              </param>
+              <param>
+                <name>ext-sslit-ocspStapling.enabled</name>
+                <value encoding="base64">MQ==</value>
+              </param>
+              <param>
+                <name>ext-xovi-site_audit_stamp</name>
+                <value encoding="base64">MTYyMzc5MDMzMQ==</value>
+              </param>
+              <param>
+                <name>ext-xovi-site_audit_state</name>
+                <value encoding="base64">Y29tcGxldGVk</value>
+              </param>
+              <param>
+                <name>ip_addr_id</name>
+                <value encoding="base64">MQ==</value>
+              </param>
+              <param>
+                <name>is_resolved</name>
+                <value encoding="base64">dHJ1ZQ==</value>
+              </param>
+              <param>
+                <name>lastDatabaseSelectedId</name>
+                <value encoding="base64">Mg==</value>
+              </param>
+              <param>
+                <name>logrotation_id</name>
+                <value encoding="base64">MTI=</value>
+              </param>
+              <param>
+                <name>vhost_id</name>
+                <value encoding="base64">OGUxMzg4ZTgtMDJhMy00YjUyLWI2ZTktNzNmODQ3ODNiYzA5</value>
+              </param>
+              <param>
+                <name>webServerSettingsId</name>
+                <value encoding="base64">MTM=</value>
+              </param>
+            </dom-param>
+          </properties>
+          <traffic>2021-06-14 http in 0
+2021-06-14 http out 13701854
+2021-06-14 ftp in 0
+2021-06-14 ftp out 0
+2021-06-14 smtp in 0
+2021-06-14 smtp out 0
+2021-06-14 pop3-imap in 0
+2021-06-14 pop3-imap out 0
+</traffic>
+          <phosting https="true" webstat="awstats" errdocs="true" shared-content="true" at-domains="false" www-root="app.b2bgiftplatform.com/public" certificate="69cc2670e4732908f8096e61b406c049" original-conf-directory="/var/www/vhosts/system/app.b2bgiftplatform.com/conf" sslRedirect="true">
+            <content>
+              <cid type="pd" path="sites/app.b2bgiftplatform.com">
+                <content-file size="188">backup_pd_2108110111.tgz</content-file>
+              </cid>
+              <cid type="conf" path="sites/app.b2bgiftplatform.com">
+                <content-file size="45">backup_conf_2108110111.tgz</content-file>
+                <exclude-item>httpd.conf</exclude-item>
+                <exclude-item>httpd.conf.bak</exclude-item>
+                <exclude-item>last_httpd.conf</exclude-item>
+                <exclude-item>vhost.conf</exclude-item>
+                <exclude-item>vhost_ssl.conf</exclude-item>
+                <exclude-item>httpd_ip_default.conf</exclude-item>
+                <exclude-item>httpd_ip_default.conf.bak</exclude-item>
+                <exclude-item>last_ip_default.conf</exclude-item>
+                <exclude-item>nginx.conf</exclude-item>
+                <exclude-item>nginx.conf.bak</exclude-item>
+                <exclude-item>last_nginx.conf</exclude-item>
+                <exclude-item>vhost_nginx.conf</exclude-item>
+                <exclude-item>nginx_ip_default.conf</exclude-item>
+                <exclude-item>nginx_ip_default.conf.bak</exclude-item>
+                <exclude-item>modsecurity_nginx.conf</exclude-item>
+                <exclude-item>modsecurity_nginx.conf.bak</exclude-item>
+                <exclude-item>siteapp.d</exclude-item>
+                <exclude-item>siteapp_ssl.d</exclude-item>
+                <exclude-item>stat_ttl.conf</exclude-item>
+                <exclude-item>webalizer.conf</exclude-item>
+                <exclude-item>prev_month.found</exclude-item>
+              </cid>
+              <cid type="logs" path="sites/app.b2bgiftplatform.com">
+                <content-file size="3119714">backup_logs_2108110111.tgz</content-file>
+              </cid>
+              <cid type="statistics" path="sites/app.b2bgiftplatform.com">
+                <content-file size="361445">backup_statistics_2108110111.tgz</content-file>
+              </cid>
+            </content>
+            <preferences>
+              <logrotation max-number-of-logfiles="10" compress="true" enabled="true">
+                <logrotation-maxsize>10485760</logrotation-maxsize>
+              </logrotation>
+              <pdir name="plesk-stat" title="Domain statistics" ssl="false" nonssl="true" cgi="false">
+                <pduser name="sysuser_2"/>
+              </pdir>
+              <webalizer hide-direct-referrer="false"/>
+              <perfomance>
+                <max-connections>-1</max-connections>
+                <traffic-bandwidth>-1</traffic-bandwidth>
+              </perfomance>
+              <web-stat stat-ttl="0"/>
+            </preferences>
+            <limits-and-permissions>
+              <scripting ssi="false" ssi_html="false" php="true" php_handler_type="fpm" php_version="7.4" php_handler_id="plesk-php74-fpm" cgi="false" perl="false" asp="false" asp_dot_net="false" fastcgi="true" webdeploy="false"/>
+            </limits-and-permissions>
+            <php-settings/>
+            <web-settings vhost-name="app.b2bgiftplatform.com">
+              <setting>
+                <name>mimeTypes</name>
+                <value encoding="base64"/>
+              </setting>
+              <setting>
+                <name>handlers</name>
+                <value encoding="base64"/>
+              </setting>
+              <setting>
+                <name>deny</name>
+                <value encoding="base64"/>
+              </setting>
+              <setting>
+                <name>allow</name>
+                <value encoding="base64"/>
+              </setting>
+              <setting>
+                <name>directoryIndex</name>
+                <value encoding="base64"/>
+              </setting>
+              <setting>
+                <name>expires</name>
+                <value encoding="base64"/>
+              </setting>
+              <setting>
+                <name>expiresStaticOnly</name>
+                <value encoding="base64">dHJ1ZQ==</value>
+              </setting>
+              <setting>
+                <name>headers</name>
+                <value encoding="base64"/>
+              </setting>
+              <setting>
+                <name>restrictFollowSymLinks</name>
+                <value encoding="base64">dHJ1ZQ==</value>
+              </setting>
+              <setting>
+                <name>nginxProxyMode</name>
+                <value encoding="base64">dHJ1ZQ==</value>
+              </setting>
+              <setting>
+                <name>nginxTransparentMode</name>
+                <value encoding="base64">ZmFsc2U=</value>
+              </setting>
+              <setting>
+                <name>nginxServeStatic</name>
+                <value encoding="base64">ZmFsc2U=</value>
+              </setting>
+              <setting>
+                <name>nginxStaticExtensions</name>
+                <value encoding="base64"/>
+              </setting>
+              <setting>
+                <name>nginxServePhp</name>
+                <value encoding="base64">ZmFsc2U=</value>
+              </setting>
+              <setting>
+                <name>nginxCacheEnabled</name>
+                <value encoding="base64">ZmFsc2U=</value>
+              </setting>
+              <setting>
+                <name>nginxCacheSize</name>
+                <value encoding="base64">NjcxMDg4NjQ=</value>
+              </setting>
+              <setting>
+                <name>nginxCacheTimeout</name>
+                <value encoding="base64">NQ==</value>
+              </setting>
+              <setting>
+                <name>nginxCacheKey</name>
+                <value encoding="base64">JHNjaGVtZSRyZXF1ZXN0X21ldGhvZCRob3N0JHJlcXVlc3RfdXJp</value>
+              </setting>
+              <setting>
+                <name>nginxCacheCookies</name>
+                <value encoding="base64"/>
+              </setting>
+              <setting>
+                <name>nginxCacheBypassLocations</name>
+                <value encoding="base64"/>
+              </setting>
+              <setting>
+                <name>nginxCacheBypassHeaderNocache</name>
+                <value encoding="base64">dHJ1ZQ==</value>
+              </setting>
+              <setting>
+                <name>nginxCacheBypassHeaderAuth</name>
+                <value encoding="base64">dHJ1ZQ==</value>
+              </setting>
+              <setting>
+                <name>nginxCacheBypassGetNocache</name>
+                <value encoding="base64">dHJ1ZQ==</value>
+              </setting>
+              <setting>
+                <name>nginxCacheUseStale5xx</name>
+                <value encoding="base64">dHJ1ZQ==</value>
+              </setting>
+              <setting>
+                <name>nginxCacheUseStale4xx</name>
+                <value encoding="base64">ZmFsc2U=</value>
+              </setting>
+              <setting>
+                <name>nginxCacheUseStaleUpdating</name>
+                <value encoding="base64">dHJ1ZQ==</value>
+              </setting>
+              <setting>
+                <name>ruleEngine</name>
+                <value encoding="base64"/>
+              </setting>
+              <setting>
+                <name>filterById</name>
+                <value encoding="base64"/>
+              </setting>
+              <setting>
+                <name>filterByTag</name>
+                <value encoding="base64"/>
+              </setting>
+              <setting>
+                <name>filterByRegexp</name>
+                <value encoding="base64"/>
+              </setting>
+              <setting>
+                <name>additionalSettings</name>
+                <value encoding="base64" compression="gzencode">H4sIAAAAAAAAAwMAAAAAAAAAAAA=</value>
+              </setting>
+              <setting>
+                <name>additionalSslSettings</name>
+                <value encoding="base64" compression="gzencode">H4sIAAAAAAAAAwMAAAAAAAAAAAA=</value>
+              </setting>
+              <setting>
+                <name>additionalNginxSettings</name>
+                <value encoding="base64" compression="gzencode">H4sIAAAAAAAAAwMAAAAAAAAAAAA=</value>
+              </setting>
+            </web-settings>
+          </phosting>
+          <extensions>
+            <extension name="git" version="1.3.0" release="268">
+              <config>$AES-128-CBC$BO9ddnBj3oGYTvROdp8Q9A==$hgm+VNuzSpSH18vcrhV13Tsp9lvfX01m4GkCWw6cBLk=</config>
+            </extension>
+            <extension name="wp-toolkit" version="5.5.1" release="5279">
+              <config>$AES-128-CBC$ijSNSg7pPfocPxgP3vzBUA==$DxvvsUx/SYMC5zsUfIT2W7TMWPudt4Gn0wZJAvCTCUU=</config>
+            </extension>
+            <extension name="sslit" version="1.9.3" release="1288">
+              <config>$AES-128-CBC$1xPEZLNcNI4YSK/znLM4Ug==$JA38zPI/D+VdakvkH8M/GrTjcTDusZ+3T2pdExypTM50woHNtiNPZaghu+XXIo6vTZMP1yLLWVwl+gyXMl6oxosNNhA3uefaKT/+QOQpTL/CEMCYrIN6iFZlJOIhZw633O04zbul04/IuqwXTkYr9YEwpFQ+wfMAiIIe/c0BNu9OS72dDxV2XBImDe3eHcajUwhSfaRqvTLlR9D7xuJHrjFO+oRtBtW3n4fmKoW3kuuUGMYRMQ4eVd69tloXk6R1iii8RxGd8CR9xzYiwjADwmyY6gNmb09F9X/0wTGoKNqptpBel2sxJGNd7gNTcvZTnD3EY8jaCA5zAp0M6LCWkMrBA+w3nG+N2asKKW1RQ+PEkzT8t2as/jVNwk6DXmjbd/e6b160ZpencfTTzm81NtOjBk1/KDFAWRmjoAih2C1umH4cAnp8JoP2bxbtaAMwtQzQOZoijvvkU9/67BEF9llVvlBWexz2xwIq3fe9yt7BuBV8pGHReFPB1WtR5eAPL9Mn2OrEV6bEeuOPbc6GOvIGVB12ZDjHjktC+V/z2bYxsYZXU3xKKmHJJdmpNHA20sJqbL//j8t3JxmxHdnzy/8t9m2iUSTCwa5Ch5ReWu0=</config>
+            </extension>
+          </extensions>
+        </site>
+      </sites>
+    </phosting>
+    <extensions>
+      <extension name="git" version="1.3.0" release="268">
+        <config>$AES-128-CBC$coq12xBlJCD3GJMzMOrUzg==$zJHNlrv+gZDoHSqC+7EHV0fy5/7HrB0KUkCQIogZMfg=</config>
+      </extension>
+      <extension name="wp-toolkit" version="5.5.1" release="5279">
+        <config>$AES-128-CBC$j2g00BzSRl76k5QQh4CEOQ==$npEySB7wMOODzPfHKcj8cE6zwycOVSEiTbdCLKx0qFc=</config>
+      </extension>
+      <extension name="sslit" version="1.9.3" release="1288">
+        <config>$AES-128-CBC$stAyI8ONhSQpT1QaZxqyvw==$i0UryQDH0h1a1w8TZGeNPmKYM9iuAgCyVKTzcGc57skahlZTyDC0uFPmKv4EKWXDlV4+S72Abh+jXbJFFdtiPgvqe3mo6Y6YBKbgOawsoHLtRPD96ZkXWulNam7p94caZ5sSFxcMY+3PbWtdAnt0FAERwSnj3HISm9aYmxH95t8iHhBm6vfN/30Gdqj/RTHYqVCU2wqzgTGMZAGtOfeFm/PBfcj+Kfm4QXmOEgXKzvMzi67o6riuSgElfi9MRvwrnnGuhlG+08uxZodwYZ6+hrI3fynSf5zK7oAsj+7QbxgudUe53pGTzvISoG2NXheeLZr4SmT0ESIfuRcL2BLbXCf/nmt49eVoh1bc6ZbyUZMQJjhB0msHaAvAbvIORSA42bzQyvFX9EuQupelhz+cw19LF9xqREAdsetmip7UxJRLpj7+Gtv8QQqSamTtctBWhFG98oOgCPM17NELqhYCpXK73TsMmS3DSnNAYzWtuG7Qdz7K7lbFOJr1gx1NWblrxPMCk2YEV6GydhwDpJsBl9aBKwxJx3oHTNe/3rZCF+NBsQlr+VYi8QSvZy2hIRRj1jm4B5qaXMJczJcekK0Y+UqqcA8h2ElJjxZiW6R69Dg=</config>
+      </extension>
+    </extensions>
+  </domain>
+</migration-dump>

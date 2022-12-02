@@ -1,0 +1,8 @@
+database	admin_gift	localhost:3306	mysql
+database	gambix_wp378	localhost:3306	mysql
+site	b2bgiftplatform.com
+site	app.b2bgiftplatform.com
+dnszone	b2bgiftplatform.com
+dnszone	app.b2bgiftplatform.com
+certificate	Lets Encrypt b2bgiftplatform.com	b2bgiftplatform.com
+certificate	Lets Encrypt app.b2bgiftplatform.com	b2bgiftplatform.com

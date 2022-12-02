@@ -1,0 +1,105 @@
+{"type":"operation","name":"backup","start":"2021-08-11 01:11:09.934","attributes":{}}
+{"type":"operation","name":"backup.check_free_space","start":"2021-08-11 01:11:10.844","attributes":{}}
+{"type":"operation","name":"backup.webspace.list_files","start":"2021-08-11 01:11:10.859","attributes":{"domain.name":"b2bgiftplatform.com"}}
+{"type":"operation","finish":"2021-08-11 01:11:13.048","attributes":{}}
+{"type":"operation","finish":"2021-08-11 01:11:13.054","attributes":{}}
+{"type":"operation","name":"backup.subscription","start":"2021-08-11 01:11:13.084","attributes":{"domain.name":"b2bgiftplatform.com"}}
+{"type":"operation","name":"backup.webspace.files","start":"2021-08-11 01:11:13.713","attributes":{"domain.name":"b2bgiftplatform.com"}}
+{"type":"operation","name":"backup-archiver '--pack-incrementally'","start":"2021-08-11 01:11:13.719","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/bin\/backup-archiver' '--pack-incrementally' '--source=\/var\/www\/vhosts\/b2bgiftplatform.com' '--destination=domains\/b2bgiftplatform.com\/backup_user-data_2108110111.tgz' '--listing-file=\/tmp\/bufnZwXvb' '--created-index-file=\/tmp\/bifQh90Um' '--incremental-dependencies=\/tmp\/bdfKwTw4u' '--user=sysuser_2' '--no-recursion' '--session-path=\/usr\/local\/psa\/PMM\/sessions\/2021-08-11-011109.647' '--warnings=\/tmp\/bwsSiI3dD' '--debug' '--verbose'"}}
+{"attributes":{"archive.name":"backup_user-data_2108110111.tgz","archive.path":"/var/lib/psa/dumps/domains/b2bgiftplatform.com/backup_user-data_2108110111.tgz","archive.size":1780792042},"name":"backup.speed.pack","time":"2021-08-11 01:13:44.304","type":"metric","value":11937523}
+{"type":"operation","finish":"2021-08-11 01:13:44.517","attributes":{"archive.size":1780792042}}
+{"type":"operation","name":"backup-archiver '--pack-incrementally'","start":"2021-08-11 01:13:44.551","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/bin\/backup-archiver' '--pack-incrementally' '--source=\/var\/www\/vhosts\/b2bgiftplatform.com' '--destination=domains\/b2bgiftplatform.com\/backup_apache-files_2108110111.tgz' '--listing-file=\/tmp\/bafOj4J8c' '--created-index-file=\/tmp\/bifrgdF7k' '--incremental-dependencies=\/tmp\/bdfWnCh12' '--user=apache' '--no-recursion' '--session-path=\/usr\/local\/psa\/PMM\/sessions\/2021-08-11-011109.647' '--warnings=\/tmp\/bwsvvqUUK' '--debug' '--verbose'"}}
+{"type":"operation","finish":"2021-08-11 01:13:44.598","attributes":{"archive.size":45}}
+{"type":"operation","finish":"2021-08-11 01:13:44.599","attributes":{}}
+{"type":"operation","name":"backup-archiver '--pack'","start":"2021-08-11 01:13:44.604","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/bin\/backup-archiver' '--pack' '--source=\/var\/www\/vhosts\/system\/b2bgiftplatform.com\/pd' '--destination=domains\/b2bgiftplatform.com\/backup_pd_2108110111.tgz' '--session-path=\/usr\/local\/psa\/PMM\/sessions\/2021-08-11-011109.647' '--warnings=\/tmp\/bws2WN3Vs' '--debug' '--verbose'"}}
+{"type":"operation","finish":"2021-08-11 01:13:44.637","attributes":{"archive.size":190}}
+{"type":"operation","name":"backup-archiver '--pack'","start":"2021-08-11 01:13:44.641","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/bin\/backup-archiver' '--pack' '--source=\/var\/www\/vhosts\/system\/b2bgiftplatform.com\/conf' '--destination=domains\/b2bgiftplatform.com\/backup_conf_2108110111.tgz' '--session-path=\/usr\/local\/psa\/PMM\/sessions\/2021-08-11-011109.647' '--warnings=\/tmp\/bwsTDhn2a' '--debug' '--verbose' '--exclude-files=\/tmp\/befPavH8S'"}}
+{"type":"operation","finish":"2021-08-11 01:13:44.691","attributes":{"archive.size":45}}
+{"type":"operation","name":"backup-archiver '--pack'","start":"2021-08-11 01:13:44.694","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/bin\/backup-archiver' '--pack' '--source=\/var\/www\/vhosts\/system\/b2bgiftplatform.com\/logs' '--destination=domains\/b2bgiftplatform.com\/backup_logs_2108110111.tgz' '--session-path=\/usr\/local\/psa\/PMM\/sessions\/2021-08-11-011109.647' '--warnings=\/tmp\/bwsFe4GmB' '--debug' '--verbose'"}}
+{"type":"operation","finish":"2021-08-11 01:13:44.837","attributes":{"archive.size":5422455}}
+{"type":"operation","name":"backup-archiver '--pack'","start":"2021-08-11 01:13:44.841","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/bin\/backup-archiver' '--pack' '--source=\/var\/www\/vhosts\/system\/b2bgiftplatform.com\/statistics' '--destination=domains\/b2bgiftplatform.com\/backup_statistics_2108110111.tgz' '--session-path=\/usr\/local\/psa\/PMM\/sessions\/2021-08-11-011109.647' '--warnings=\/tmp\/bws8XwuVj' '--debug' '--verbose'"}}
+{"type":"operation","finish":"2021-08-11 01:13:44.947","attributes":{"archive.size":505393}}
+{"type":"operation","name":"backup.domain","start":"2021-08-11 01:13:44.968","attributes":{"domain.name":"app.b2bgiftplatform.com"}}
+{"type":"operation","name":"backup-archiver '--pack'","start":"2021-08-11 01:13:45.131","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/bin\/backup-archiver' '--pack' '--source=\/var\/www\/vhosts\/system\/app.b2bgiftplatform.com\/pd' '--destination=domains\/b2bgiftplatform.com\/sites\/app.b2bgiftplatform.com\/backup_pd_2108110111.tgz' '--session-path=\/usr\/local\/psa\/PMM\/sessions\/2021-08-11-011109.647' '--warnings=\/tmp\/bws0Tgy92' '--debug' '--verbose'"}}
+{"type":"operation","finish":"2021-08-11 01:13:45.165","attributes":{"archive.size":188}}
+{"type":"operation","name":"backup-archiver '--pack'","start":"2021-08-11 01:13:45.169","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/bin\/backup-archiver' '--pack' '--source=\/var\/www\/vhosts\/system\/app.b2bgiftplatform.com\/conf' '--destination=domains\/b2bgiftplatform.com\/sites\/app.b2bgiftplatform.com\/backup_conf_2108110111.tgz' '--session-path=\/usr\/local\/psa\/PMM\/sessions\/2021-08-11-011109.647' '--warnings=\/tmp\/bws4ScZsM' '--debug' '--verbose' '--exclude-files=\/tmp\/bef1VUqMv'"}}
+{"type":"operation","finish":"2021-08-11 01:13:45.206","attributes":{"archive.size":45}}
+{"type":"operation","name":"backup-archiver '--pack'","start":"2021-08-11 01:13:45.210","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/bin\/backup-archiver' '--pack' '--source=\/var\/www\/vhosts\/system\/app.b2bgiftplatform.com\/logs' '--destination=domains\/b2bgiftplatform.com\/sites\/app.b2bgiftplatform.com\/backup_logs_2108110111.tgz' '--session-path=\/usr\/local\/psa\/PMM\/sessions\/2021-08-11-011109.647' '--warnings=\/tmp\/bws7EBEbf' '--debug' '--verbose'"}}
+{"type":"operation","finish":"2021-08-11 01:13:45.347","attributes":{"archive.size":3119714}}
+{"type":"operation","name":"backup-archiver '--pack'","start":"2021-08-11 01:13:45.351","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/bin\/backup-archiver' '--pack' '--source=\/var\/www\/vhosts\/system\/app.b2bgiftplatform.com\/statistics' '--destination=domains\/b2bgiftplatform.com\/sites\/app.b2bgiftplatform.com\/backup_statistics_2108110111.tgz' '--session-path=\/usr\/local\/psa\/PMM\/sessions\/2021-08-11-011109.647' '--warnings=\/tmp\/bwsa1jVUY' '--debug' '--verbose'"}}
+{"type":"operation","finish":"2021-08-11 01:13:45.446","attributes":{"archive.size":361445}}
+{"type":"operation","name":"backup.applications","start":"2021-08-11 01:13:45.449","attributes":{}}
+{"type":"operation","finish":"2021-08-11 01:13:45.454","attributes":{}}
+{"type":"operation","name":"backup.extensions","start":"2021-08-11 01:13:45.464","attributes":{}}
+{"type":"operation","name":"backup_restore_helper '--get-extensions-hooks'","start":"2021-08-11 01:13:45.464","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/sbin\/backup_restore_helper' '--get-extensions-hooks'"}}
+{"type":"operation","finish":"2021-08-11 01:13:45.923","attributes":{}}
+{"type":"operation","name":"backup.extension","start":"2021-08-11 01:13:45.924","attributes":{"extension.name":"Git"}}
+{"type":"operation","name":"backup_restore_helper '--backup-extension'","start":"2021-08-11 01:13:45.924","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/sbin\/backup_restore_helper' '--backup-extension' '7' '-object-type' 'site' '-object-id' '8'"}}
+{"type":"operation","finish":"2021-08-11 01:13:46.251","attributes":{}}
+{"type":"operation","name":"backup_restore_helper '--post-backup-extension'","start":"2021-08-11 01:13:46.253","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/sbin\/backup_restore_helper' '--post-backup-extension' '7' '-object-type' 'site' '-object-id' '8'"}}
+{"type":"operation","finish":"2021-08-11 01:13:46.536","attributes":{}}
+{"type":"operation","finish":"2021-08-11 01:13:46.536","attributes":{}}
+{"type":"operation","name":"backup.extension","start":"2021-08-11 01:13:46.536","attributes":{"extension.name":"WordPress Toolkit"}}
+{"type":"operation","name":"backup_restore_helper '--backup-extension'","start":"2021-08-11 01:13:46.536","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/sbin\/backup_restore_helper' '--backup-extension' '9' '-object-type' 'site' '-object-id' '8'"}}
+{"type":"operation","finish":"2021-08-11 01:13:46.890","attributes":{}}
+{"type":"operation","name":"backup_restore_helper '--post-backup-extension'","start":"2021-08-11 01:13:46.891","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/sbin\/backup_restore_helper' '--post-backup-extension' '9' '-object-type' 'site' '-object-id' '8'"}}
+{"type":"operation","finish":"2021-08-11 01:13:47.166","attributes":{}}
+{"type":"operation","finish":"2021-08-11 01:13:47.167","attributes":{}}
+{"type":"operation","name":"backup.extension","start":"2021-08-11 01:13:47.167","attributes":{"extension.name":"SSL It!"}}
+{"type":"operation","name":"backup_restore_helper '--backup-extension'","start":"2021-08-11 01:13:47.167","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/sbin\/backup_restore_helper' '--backup-extension' '16' '-object-type' 'site' '-object-id' '8'"}}
+{"type":"operation","finish":"2021-08-11 01:13:47.499","attributes":{}}
+{"type":"operation","name":"backup_restore_helper '--post-backup-extension'","start":"2021-08-11 01:13:47.499","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/sbin\/backup_restore_helper' '--post-backup-extension' '16' '-object-type' 'site' '-object-id' '8'"}}
+{"type":"operation","finish":"2021-08-11 01:13:47.774","attributes":{}}
+{"type":"operation","finish":"2021-08-11 01:13:47.774","attributes":{}}
+{"type":"operation","finish":"2021-08-11 01:13:47.775","attributes":{}}
+{"type":"operation","finish":"2021-08-11 01:13:47.775","attributes":{}}
+{"type":"operation","name":"backup.applications","start":"2021-08-11 01:13:47.775","attributes":{}}
+{"type":"operation","finish":"2021-08-11 01:13:47.777","attributes":{}}
+{"type":"operation","name":"backup.email.messages","start":"2021-08-11 01:13:47.798","attributes":{"domain.name":"b2bgiftplatform.com"}}
+{"type":"operation","name":"backup.email.list_messages","start":"2021-08-11 01:13:47.801","attributes":{"domain.name":"b2bgiftplatform.com"}}
+{"type":"operation","finish":"2021-08-11 01:13:47.818","attributes":{}}
+{"type":"operation","name":"backup-archiver '--pack-incrementally'","start":"2021-08-11 01:13:47.819","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/bin\/backup-archiver' '--pack-incrementally' '--source=\/var\/qmail\/mailnames\/b2bgiftplatform.com' '--destination=domains\/b2bgiftplatform.com\/backup_domainmail_2108110111.tgz' '--listing-file=\/tmp\/bmmmAqCoh' '--created-index-file=\/tmp\/bifd63paW' '--incremental-dependencies=\/tmp\/bdfEXPtyL' '--user=popuser' '--no-recursion' '--session-path=\/usr\/local\/psa\/PMM\/sessions\/2021-08-11-011109.647' '--warnings=\/tmp\/bwsA4OxWA' '--id=7' '--debug' '--verbose'"}}
+{"type":"operation","finish":"2021-08-11 01:13:47.855","attributes":{"archive.size":45}}
+{"type":"operation","finish":"2021-08-11 01:13:47.855","attributes":{}}
+{"type":"operation","name":"backup.database","start":"2021-08-11 01:13:47.888","attributes":{"db.system":"mysql","db.name":"admin_gift"}}
+{"type":"operation","name":"mysqldump '--defaults-file=\/etc\/my.cnf'","start":"2021-08-11 01:13:47.952","attributes":{"process.command_line":"'mysqldump' '--defaults-file=\/etc\/my.cnf' '--host=localhost' '--port=3306' '--user=admin' '--result-file=\/tmp\/bddEiGhDq\/backup_sqldump_2108110111' '--add-drop-table' '--quick' '--routines' 'admin_gift'"}}
+{"type":"operation","finish":"2021-08-11 01:13:48.076","attributes":{}}
+{"type":"operation","name":"backup-archiver '--pack'","start":"2021-08-11 01:13:48.078","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/bin\/backup-archiver' '--pack' '--source=\/tmp\/bddEiGhDq' '--destination=domains\/b2bgiftplatform.com\/databases\/admin_gift_1\/backup_sqldump_2108110111.tgz' '--session-path=\/usr\/local\/psa\/PMM\/sessions\/2021-08-11-011109.647' '--warnings=\/tmp\/bwskqXaj6' '--debug' '--verbose'"}}
+{"type":"operation","finish":"2021-08-11 01:13:48.160","attributes":{"archive.size":140617}}
+{"type":"operation","finish":"2021-08-11 01:13:48.179","attributes":{}}
+{"type":"operation","name":"backup.database","start":"2021-08-11 01:13:48.179","attributes":{"db.system":"mysql","db.name":"gambix_wp378"}}
+{"type":"operation","name":"mysqldump '--defaults-file=\/etc\/my.cnf'","start":"2021-08-11 01:13:48.208","attributes":{"process.command_line":"'mysqldump' '--defaults-file=\/etc\/my.cnf' '--host=localhost' '--port=3306' '--user=admin' '--result-file=\/tmp\/bddAtHxAW\/backup_sqldump_2108110111' '--add-drop-table' '--quick' '--routines' 'gambix_wp378'"}}
+{"type":"operation","finish":"2021-08-11 01:13:48.461","attributes":{}}
+{"type":"operation","name":"backup-archiver '--pack'","start":"2021-08-11 01:13:48.464","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/bin\/backup-archiver' '--pack' '--source=\/tmp\/bddAtHxAW' '--destination=domains\/b2bgiftplatform.com\/databases\/gambix_wp378_1\/backup_sqldump_2108110111.tgz' '--session-path=\/usr\/local\/psa\/PMM\/sessions\/2021-08-11-011109.647' '--warnings=\/tmp\/bwsY27GJD' '--debug' '--verbose'"}}
+{"type":"operation","finish":"2021-08-11 01:13:48.552","attributes":{"archive.size":253034}}
+{"type":"operation","finish":"2021-08-11 01:13:48.558","attributes":{}}
+{"type":"operation","name":"backup.extensions","start":"2021-08-11 01:13:48.559","attributes":{}}
+{"type":"operation","name":"backup.extension","start":"2021-08-11 01:13:48.559","attributes":{"extension.name":"Git"}}
+{"type":"operation","name":"backup_restore_helper '--backup-extension'","start":"2021-08-11 01:13:48.559","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/sbin\/backup_restore_helper' '--backup-extension' '7' '-object-type' 'subscription' '-object-id' '7'"}}
+{"type":"operation","finish":"2021-08-11 01:13:48.857","attributes":{}}
+{"type":"operation","name":"backup_restore_helper '--post-backup-extension'","start":"2021-08-11 01:13:48.857","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/sbin\/backup_restore_helper' '--post-backup-extension' '7' '-object-type' 'subscription' '-object-id' '7'"}}
+{"type":"operation","finish":"2021-08-11 01:13:49.123","attributes":{}}
+{"type":"operation","finish":"2021-08-11 01:13:49.123","attributes":{}}
+{"type":"operation","name":"backup.extension","start":"2021-08-11 01:13:49.124","attributes":{"extension.name":"WordPress Toolkit"}}
+{"type":"operation","name":"backup_restore_helper '--backup-extension'","start":"2021-08-11 01:13:49.124","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/sbin\/backup_restore_helper' '--backup-extension' '9' '-object-type' 'subscription' '-object-id' '7'"}}
+{"type":"operation","finish":"2021-08-11 01:13:49.473","attributes":{}}
+{"type":"operation","name":"backup_restore_helper '--post-backup-extension'","start":"2021-08-11 01:13:49.473","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/sbin\/backup_restore_helper' '--post-backup-extension' '9' '-object-type' 'subscription' '-object-id' '7'"}}
+{"type":"operation","finish":"2021-08-11 01:13:49.727","attributes":{}}
+{"type":"operation","finish":"2021-08-11 01:13:49.727","attributes":{}}
+{"type":"operation","name":"backup.extension","start":"2021-08-11 01:13:49.727","attributes":{"extension.name":"SSL It!"}}
+{"type":"operation","name":"backup_restore_helper '--backup-extension'","start":"2021-08-11 01:13:49.727","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/sbin\/backup_restore_helper' '--backup-extension' '16' '-object-type' 'subscription' '-object-id' '7'"}}
+{"type":"operation","finish":"2021-08-11 01:13:50.009","attributes":{}}
+{"type":"operation","name":"backup_restore_helper '--post-backup-extension'","start":"2021-08-11 01:13:50.010","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/sbin\/backup_restore_helper' '--post-backup-extension' '16' '-object-type' 'subscription' '-object-id' '7'"}}
+{"type":"operation","finish":"2021-08-11 01:13:50.298","attributes":{}}
+{"type":"operation","finish":"2021-08-11 01:13:50.298","attributes":{}}
+{"type":"operation","finish":"2021-08-11 01:13:50.298","attributes":{}}
+{"type":"operation","finish":"2021-08-11 01:13:50.545","attributes":{}}
+{"type":"operation","name":"backup.local.validate","start":"2021-08-11 01:13:50.549","attributes":{}}
+{"type":"operation","name":"pmm-ras '--get-dump-info'","start":"2021-08-11 01:13:50.549","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/bin\/pmm-ras' '--get-dump-info' '--session-path=\/usr\/local\/psa\/PMM\/sessions\/2021-08-11-011109.647' '--dump-file-specification=domains\/b2bgiftplatform.com\/backup_info_2108110111.xml' '--with-feedback' '--debug' '--verbose'"}}
+{"type":"operation","finish":"2021-08-11 01:13:50.872","attributes":{}}
+{"type":"operation","finish":"2021-08-11 01:13:50.872","attributes":{}}
+{"type":"operation","name":"backup.local.build_index","start":"2021-08-11 01:13:50.874","attributes":{}}
+{"type":"operation","name":"pmm-ras '--build-dump-content-index'","start":"2021-08-11 01:13:50.874","attributes":{"process.command_line":"'\/usr\/local\/psa\/admin\/bin\/pmm-ras' '--build-dump-content-index' '--session-path=\/usr\/local\/psa\/PMM\/sessions\/2021-08-11-011109.647' '--dump-file-specification=\/var\/lib\/psa\/dumps\/domains\/b2bgiftplatform.com\/backup_info_2108110111.xml' '--debug' '--verbose'"}}
+{"type":"operation","finish":"2021-08-11 01:13:51.033","attributes":{}}
+{"type":"operation","finish":"2021-08-11 01:13:51.033","attributes":{}}
+{"type":"operation","finish":"2021-08-11 01:13:51.059","attributes":{}}
